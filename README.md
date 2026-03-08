@@ -4,38 +4,39 @@ Lead Factory Dashboard is a next-generation AI-powered sales automation and unif
 
 ## 🚀 Key Features and Capabilities
 
-### 1. Intelligent Campaign Sequence Builder
+### Products & AI Sales Strategy
+The foundation of any outreach is the **Product**. Users define their target customers, pain points, and value propositions. 
+- **AI Strategy Generation**: Once a product is defined, the system's AI Brain automatically writes a full **Sales Strategy**, detailing the target audience, key value messages, recommended outreach approach, and follow-up strategy. 
+
+### The Setup Wizard Flow
+When launching a new campaign, the dashboard guides users through a comprehensive 7-step Setup Wizard to ensure everything is configured for maximum conversion:
+
+1. **Pipeline Stages**: Define the visual Kanban stages for this specific campaign (e.g., Prospecting, Negotiating, Closed-Won).
+2. **AI Sales Strategy**: Review and refine the AI-generated strategy specific to this product.
+3. **Import Contacts**: Source leads manually, import via CSV, or connect to the integrated LinkedIn Scraper to pull verified profiles directly into the campaign.
+4. **Email Settings**: Configure the sender name, email account, and tracking domains (using Mailgun/AWS SES).
+5. **Google Calendar**: Connect a calendar so the AI can automatically propose available times and book meetings without human intervention.
+6. **AI Auto-Reply**: Train the AI on how to handle objections, frequently asked questions (FAQs), and positive responses.
+7. **Connect LinkedIn**: Link the user's professional LinkedIn account via the Unipile API for automated profile visits, connection requests, and DMs.
+
+### Intelligent Campaign Sequence Builder
 Design, automate, and monitor sophisticated multi-touch outreach sequences.
-- **Visual Flow Editor**: Build step-by-step outreach workflows combining emails, LinkedIn visits, connection requests, and direct messages.
-- **Smart Delays & Conditions**: Set logic-based waiting periods (e.g., "Wait 5 days for invite acceptance, otherwise send follow-up Email 2").
-- **Adaptive Strategy Generation**: The AI analyzes your product's target audience, pain points, and value proposition to dynamically generate customized campaign strategies.
-- **Anti-Spam & Deliverability Guardians**: Multi-layered algorithms mimic human variation and respect platform rate limits to maximize deliverability. 
+- **Visual Flow Editor**: Build step-by-step outreach workflows containing:
+  - **Emails**: Initial outreach, follow-ups, and breakup emails.
+  - **LinkedIn Actions**: View profile, send connection invite, send direct message.
+  - **Conditions**: Logic-based branching (e.g., "Accepted invite within 5 days? -> Send DM, Else -> Send Email").
+- **Smart Delays**: Set logic-based waiting periods between nodes to space out touches naturally.
+- **AI Copywriting generation**: The AI pre-writes your step-by-step messaging sequence based on the product's strategy and tone.
 
-### 2. Multi-Channel Unified Inbox
+### Multi-Channel Unified Inbox
 A single pane of glass for all your professional communications.
-- **Provider Integrations**: Natively connects with major communication providers, including:
-  - Email (Gmail, Outlook)
-  - Social & Messaging (LinkedIn, WhatsApp, Telegram, Instagram)
+- **Provider Integrations**: Natively connects with major communication providers via Unipile APIs (Email, LinkedIn, WhatsApp, Telegram).
 - **AI Classification**: Automatically categorizes incoming messages (e.g., meeting requests, objections, support questions).
-- **Auto-Reply Suggestions**: Suggests context-aware, hyper-personalized replies based on past conversation history and product knowledge.
+- **Auto-Reply Suggestions**: Suggests context-aware, hyper-personalized replies based on the AI Auto-Reply training and conversation history.
 
-### 3. Lead Sourcing & Management
-Smarter targeting for higher conversion rates.
-- **LinkedIn Intelligent Scraping**: Scrape verified leads directly from LinkedIn using advanced filters and integrate them seamlessly into your campaigns.
-- **Contact Management**: Centralized repository for all contacts with rich data enrichment.
-- **Pipeline Stages**: Visual Kanban-style tracking of where each lead is within the sales cycle (Prospecting, Negotiating, Closed-Won, etc.).
-- **Bulk Imports**: Easily upload CSVs to feed new leads into active automated sequences.
-
-### 4. Meetings & Calendar Conversions
-Streamlined scheduling and follow-ups.
-- **Google Calendar Integration**: Direct syncing of your calendar.
-- **Meeting Tracking**: Real-time insights into booked demos, upcoming calls, and no-shows directly within the dashboard.
-
-### 5. Advanced 'AI Brain' Engine
-The core intelligence driving the Lead Factory platform.
-- **Continuous Learning**: Employs an objection-handling engine and conversational psychology models to learn from rejections and refine future outreach.
-- **Lead Scoring**: Assigns dynamic scores to prospects based on engagement "silent signals" (e.g., email opens, profile visits).
-- **Grok & Claude Powered**: Leverages state-of-the-art LLMs under the hood for human-like copywriting and strategic reasoning.
+### Insights & Analytics
+- **Campaign Dashboard**: Real-time stats showing Total Sent, Opens, Clicks, Replies, and Demos Booked.
+- **Lead Sourcing & Management**: Integrated tools for filtering, enriching, and tracking leads directly within the dashboard.
 
 ---
 
@@ -44,7 +45,7 @@ The core intelligence driving the Lead Factory platform.
 - **Frontend Framework**: [Next.js](https://nextjs.org/) (App Router)
 - **UI Library**: [React 19](https://react.dev/)
 - **Styling**: [Tailwind CSS v4](https://tailwindcss.com/) with Radix UI primitives and Lucide React icons.
-- **Authentication & Database**: [Supabase](https://supabase.com/) & SQLite (Local testing)
+- **Authentication & Database**: [Supabase](https://supabase.com/) & SQLite (Local data storage)
 - **Email Infrastructure**: AWS SES & [Mailgun](https://www.mailgun.com/) via Nodemailer / Sendgrid SDKs.
 - **Multi-Channel API**: [Unipile](https://www.unipile.com/)
 - **Web Scraping & Automation**: [Airtop](https://airtop.ai/) & [Apify](https://apify.com/)
