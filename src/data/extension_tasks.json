@@ -1,0 +1,36 @@
+[
+  {
+    "id": "ac84013e-475c-40e2-b1e3-53db25ce1447",
+    "type": "visit",
+    "productId": "topsalesagent",
+    "nodeId": "visit",
+    "leadId": "f94e61c3-1fc4-4598-b34b-583da9434ecc",
+    "contactName": "simoncowling",
+    "profileUrl": "https://www.linkedin.com/in/simoncowling/",
+    "status": "done",
+    "createdAt": "2026-02-25T15:59:54.229Z",
+    "updatedAt": "2026-02-25T15:59:54.229Z",
+    "completedAt": "2026-02-25T16:00:25.364Z",
+    "resultData": {
+      "visitedName": "Simon C.",
+      "url": "https://www.linkedin.com/in/simoncowling/"
+    }
+  },
+  {
+    "id": "7d36abb4-f02f-43d8-ac4b-0ca16b6c99af",
+    "type": "invite",
+    "productId": "topsalesagent",
+    "nodeId": "invite",
+    "leadId": "f94e61c3-1fc4-4598-b34b-583da9434ecc",
+    "contactName": "simoncowling",
+    "profileUrl": "https://www.linkedin.com/in/simoncowling/",
+    "status": "done",
+    "createdAt": "2026-02-25T16:00:25.378Z",
+    "updatedAt": "2026-02-25T16:00:25.378Z",
+    "completedAt": "2026-02-25T16:00:54.057Z",
+    "resultData": {
+      "status": "sent",
+      "verified": true
+    }
+  }
+]

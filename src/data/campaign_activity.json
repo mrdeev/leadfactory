@@ -1,0 +1,516 @@
+[
+  {
+    "productId": "nordic-airhost",
+    "timestamp": "2026-02-14T12:00:00.000Z",
+    "status": "launched",
+    "contactCount": 5,
+    "details": "Initial campaign launch complete. AI generated 5 personalized emails."
+  },
+  {
+    "productId": "topsalesagent",
+    "timestamp": "2026-02-14T12:51:27.394Z",
+    "status": "launched",
+    "contactCount": 1,
+    "details": "Successfully launched campaign for TopSalesAgent. AI generated 1 personalized messages."
+  },
+  {
+    "productId": "topsalesagent",
+    "timestamp": "2026-02-14T13:09:12.252Z",
+    "status": "launched",
+    "contactCount": 1,
+    "details": "Successfully launched campaign for TopSalesAgent. AI generated 1 personalized messages."
+  },
+  {
+    "productId": "topsalesagent",
+    "timestamp": "2026-02-14T13:09:24.861Z",
+    "status": "triggered",
+    "contactCount": 1,
+    "details": "AI is processing 1 leads for TopSalesAgent using strategy: Medium to large-sized businesses with high sales v..."
+  },
+  {
+    "productId": "topsalesagent",
+    "timestamp": "2026-02-14T14:49:44.862Z",
+    "status": "triggered",
+    "contactCount": 2,
+    "details": "AI is processing 2 leads for TopSalesAgent using strategy: The ideal customer profile for TopSalesAgent inclu..."
+  },
+  {
+    "productId": "topsalesagent",
+    "timestamp": "2026-02-14T15:02:58.102Z",
+    "status": "launched",
+    "contactCount": 1,
+    "details": "Successfully launched campaign for TopSalesAgent. AI generated 1 personalized messages."
+  },
+  {
+    "productId": "topsalesagent",
+    "timestamp": "2026-02-14T15:09:25.690Z",
+    "status": "launched",
+    "contactCount": 1,
+    "details": "Successfully launched campaign for TopSalesAgent. AI generated 1 personalized messages."
+  },
+  {
+    "productId": "topsalesagent",
+    "timestamp": "2026-02-14T20:21:04.821Z",
+    "status": "launched",
+    "contactCount": 1,
+    "details": "Successfully launched campaign for TopSalesAgent. AI generated 1 personalized messages."
+  },
+  {
+    "productId": "topsalesagent",
+    "timestamp": "2026-02-14T20:24:58.859Z",
+    "status": "review_pending",
+    "contactCount": 1,
+    "details": "Launched campaign for TopSalesAgent. 1 leads waiting for approval."
+  },
+  {
+    "productId": "topsalesagent",
+    "timestamp": "2026-02-14T20:30:24.030Z",
+    "status": "review_pending",
+    "contactCount": 1,
+    "details": "Launched campaign for TopSalesAgent. 1 leads waiting for approval."
+  },
+  {
+    "productId": "topsalesagent",
+    "timestamp": "2026-02-14T20:40:53.107Z",
+    "status": "review_pending",
+    "contactCount": 1,
+    "details": "Launched campaign for TopSalesAgent. 1 leads waiting for approval."
+  },
+  {
+    "productId": "topsalesagent",
+    "timestamp": "2026-02-14T21:47:10.352Z",
+    "status": "review_pending",
+    "contactCount": 1,
+    "details": "Launched campaign for TopSalesAgent. 1 leads waiting for approval."
+  },
+  {
+    "productId": "topsalesagent",
+    "timestamp": "2026-02-19T21:51:26.283Z",
+    "status": "review_pending",
+    "contactCount": 1,
+    "details": "Launched campaign for TopSalesAgent. 1 leads waiting for approval."
+  },
+  {
+    "productId": "topsalesagent",
+    "timestamp": "2026-02-19T22:37:06.408Z",
+    "status": "review_pending",
+    "contactCount": 1,
+    "details": "Launched campaign for TopSalesAgent. 1 leads waiting for approval."
+  },
+  {
+    "productId": "topsalesagent",
+    "timestamp": "2026-02-21T12:48:25.304Z",
+    "status": "review_pending",
+    "campaignStep": 1,
+    "contactCount": 1,
+    "details": "Campaign step 1 generated for TopSalesAgent. 1 leads awaiting approval."
+  },
+  {
+    "productId": "topsalesagent",
+    "timestamp": "2026-02-22T14:12:31.389Z",
+    "status": "review_pending",
+    "campaignStep": 1,
+    "contactCount": 1,
+    "details": "Campaign step 1 generated for TopSalesAgent. 1 leads awaiting approval."
+  },
+  {
+    "productId": "topsalesagent",
+    "timestamp": "2026-02-22T21:20:51.733Z",
+    "status": "launched",
+    "campaignStep": 1,
+    "contactCount": 1,
+    "details": "Campaign step 1 sent for TopSalesAgent. 1 personalized emails delivered."
+  },
+  {
+    "productId": "topsalesagent",
+    "timestamp": "2026-02-24T22:15:03.885Z",
+    "status": "launched",
+    "campaignStep": 1,
+    "contactCount": 1,
+    "details": "Campaign step 1 sent for TopSalesAgent. 1 personalized emails delivered."
+  },
+  {
+    "productId": "topsalesagent",
+    "timestamp": "2026-02-24T22:21:32.911Z",
+    "status": "launched",
+    "campaignStep": 1,
+    "contactCount": 1,
+    "details": "Campaign step 1 sent for TopSalesAgent. 1 personalized emails delivered."
+  },
+  {
+    "productId": "topsalesagent",
+    "timestamp": "2026-02-24T22:27:55.267Z",
+    "status": "launched",
+    "campaignStep": 1,
+    "contactCount": 1,
+    "details": "Campaign step 1 sent for TopSalesAgent. 1 personalized emails delivered."
+  },
+  {
+    "productId": "topsalesagent",
+    "timestamp": "2026-02-24T22:57:37.811Z",
+    "status": "launched",
+    "campaignStep": 1,
+    "contactCount": 1,
+    "details": "Campaign step 1 sent for TopSalesAgent. 1 personalized emails delivered."
+  },
+  {
+    "productId": "topsalesagent",
+    "nodeId": "visit",
+    "leadId": "e698424d-c57e-48b0-bb7a-a2f9c5ae1f8f",
+    "timestamp": "2026-02-25T13:54:53.306Z",
+    "status": "queued",
+    "details": "[Extension] Visit queued for sdd"
+  },
+  {
+    "productId": "topsalesagent",
+    "nodeId": "visit",
+    "leadId": "e698424d-c57e-48b0-bb7a-a2f9c5ae1f8f",
+    "timestamp": "2026-02-25T13:55:28.963Z",
+    "status": "done",
+    "details": "[Extension] Profile visited for sdd"
+  },
+  {
+    "productId": "topsalesagent",
+    "timestamp": "2026-02-25T13:58:32.858Z",
+    "status": "launched",
+    "campaignStep": 1,
+    "contactCount": 1,
+    "details": "Campaign step 1 sent for TopSalesAgent. 1 personalized emails delivered."
+  },
+  {
+    "productId": "topsalesagent",
+    "nodeId": "visit",
+    "leadId": "ac9ce4b7-9169-4236-83d3-e88cd4034d3f",
+    "timestamp": "2026-02-25T15:02:35.877Z",
+    "status": "queued",
+    "details": "[Extension] Visit queued for kim"
+  },
+  {
+    "productId": "topsalesagent",
+    "nodeId": "visit",
+    "leadId": "ac9ce4b7-9169-4236-83d3-e88cd4034d3f",
+    "timestamp": "2026-02-25T15:02:58.601Z",
+    "status": "done",
+    "details": "[Extension] Profile visited for kim"
+  },
+  {
+    "productId": "topsalesagent",
+    "nodeId": "invite",
+    "leadId": "ac9ce4b7-9169-4236-83d3-e88cd4034d3f",
+    "timestamp": "2026-02-25T15:02:58.608Z",
+    "status": "queued",
+    "details": "[Extension] Invite queued for kim"
+  },
+  {
+    "productId": "topsalesagent",
+    "nodeId": "invite",
+    "leadId": "ac9ce4b7-9169-4236-83d3-e88cd4034d3f",
+    "timestamp": "2026-02-25T15:03:35.578Z",
+    "status": "done",
+    "details": "[Extension] Connection invite sent for kim"
+  },
+  {
+    "productId": "topsalesagent",
+    "nodeId": "condition",
+    "leadId": "ac9ce4b7-9169-4236-83d3-e88cd4034d3f",
+    "timestamp": "2026-02-25T15:06:40.149Z",
+    "status": "queued",
+    "details": "[Extension] Acceptance check queued for kim"
+  },
+  {
+    "productId": "topsalesagent",
+    "nodeId": "condition",
+    "leadId": "ac9ce4b7-9169-4236-83d3-e88cd4034d3f",
+    "timestamp": "2026-02-25T15:06:58.588Z",
+    "status": "done",
+    "details": "[Extension] Acceptance checked for kim"
+  },
+  {
+    "productId": "topsalesagent",
+    "timestamp": "2026-02-25T15:48:42.407Z",
+    "status": "launched",
+    "campaignStep": 1,
+    "contactCount": 1,
+    "details": "Campaign step 1 sent for TopSalesAgent. 1 personalized emails delivered."
+  },
+  {
+    "productId": "topsalesagent",
+    "nodeId": "visit",
+    "leadId": "f94e61c3-1fc4-4598-b34b-583da9434ecc",
+    "timestamp": "2026-02-25T15:59:54.230Z",
+    "status": "queued",
+    "details": "[Extension] Visit queued for simoncowling"
+  },
+  {
+    "productId": "topsalesagent",
+    "nodeId": "visit",
+    "leadId": "f94e61c3-1fc4-4598-b34b-583da9434ecc",
+    "timestamp": "2026-02-25T16:00:25.365Z",
+    "status": "done",
+    "details": "[Extension] Profile visited for simoncowling"
+  },
+  {
+    "productId": "topsalesagent",
+    "nodeId": "invite",
+    "leadId": "f94e61c3-1fc4-4598-b34b-583da9434ecc",
+    "timestamp": "2026-02-25T16:00:25.379Z",
+    "status": "queued",
+    "details": "[Extension] Invite queued for simoncowling"
+  },
+  {
+    "productId": "topsalesagent",
+    "nodeId": "invite",
+    "leadId": "f94e61c3-1fc4-4598-b34b-583da9434ecc",
+    "timestamp": "2026-02-25T16:00:54.058Z",
+    "status": "done",
+    "details": "[Extension] Connection invite sent for simoncowling"
+  },
+  {
+    "productId": "nordic-airbnb-host",
+    "timestamp": "2026-02-25T16:16:31.459Z",
+    "status": "launched",
+    "campaignStep": 1,
+    "contactCount": 3,
+    "details": "Campaign step 1 sent for Nordic Airbnb Host. 3 personalized emails delivered."
+  },
+  {
+    "productId": "topsalesagent-ucjcr",
+    "timestamp": "2026-02-26T16:41:19.795Z",
+    "status": "launched",
+    "campaignStep": 1,
+    "contactCount": 1,
+    "details": "Campaign step 1 sent for TopSalesAgent. 1 personalized emails delivered."
+  },
+  {
+    "productId": "topsalesagent-6wnet",
+    "timestamp": "2026-02-26T17:12:06.443Z",
+    "status": "launched",
+    "campaignStep": 1,
+    "contactCount": 1,
+    "details": "Campaign step 1 sent for TopSalesAgent. 1 personalized emails delivered."
+  },
+  {
+    "productId": "topsalesagent-6wnet",
+    "nodeId": "visit",
+    "leadId": "ae3319a6-02a3-4c78-a369-e192e8d004f9",
+    "timestamp": "2026-02-26T17:12:06.517Z",
+    "status": "queued",
+    "details": "[Extension] Visit queued for Patricia Marcucci"
+  },
+  {
+    "productId": "topsalesagent-12nnc",
+    "timestamp": "2026-02-26T18:02:23.288Z",
+    "status": "launched",
+    "campaignStep": 1,
+    "contactCount": 1,
+    "details": "Campaign step 1 sent for TopSalesAgent. 1 personalized emails delivered."
+  },
+  {
+    "productId": "topsalesagent-12nnc",
+    "nodeId": "visit",
+    "leadId": "d5e73f40-b892-4b5f-9326-d7acb8dbd508",
+    "timestamp": "2026-02-26T18:02:23.311Z",
+    "status": "queued",
+    "details": "[Extension] Visit queued for simoncowling"
+  },
+  {
+    "productId": "test-campaign-123",
+    "timestamp": "2026-02-26T21:14:37.521Z",
+    "status": "launched",
+    "campaignStep": 1,
+    "contactCount": 1,
+    "details": "Campaign step 1 sent for Test LinkedIn Campaign. 1 personalized emails delivered."
+  },
+  {
+    "productId": "test-campaign-123",
+    "nodeId": "visit",
+    "leadId": "test-lead-456",
+    "timestamp": "2026-02-26T21:14:37.565Z",
+    "status": "queued",
+    "details": "[Extension] Visit queued for Test LinkedIn Lead"
+  },
+  {
+    "productId": "nordic-airbnb-host",
+    "nodeId": "visit",
+    "leadId": "f52162ff-0f50-4658-af3c-513aa2a8113b",
+    "timestamp": "2026-02-26T21:37:15.447Z",
+    "status": "skipped",
+    "details": "Extension offline and no LinkedIn cookie configured"
+  },
+  {
+    "productId": "nordic-airbnb-host",
+    "nodeId": "visit",
+    "leadId": "7bb31fcd-338f-4620-92b3-06a9709a1db5",
+    "timestamp": "2026-02-26T21:37:15.461Z",
+    "status": "skipped",
+    "details": "Extension offline and no LinkedIn cookie configured"
+  },
+  {
+    "productId": "nordic-airbnb-host",
+    "nodeId": "visit",
+    "leadId": "9022173c-18ef-41cc-aa68-513b2bbf6e92",
+    "timestamp": "2026-02-26T21:37:15.470Z",
+    "status": "skipped",
+    "details": "Extension offline and no LinkedIn cookie configured"
+  },
+  {
+    "productId": "topsalesagent-ucjcr",
+    "nodeId": "visit",
+    "leadId": "49d6650c-7313-494b-ab51-a90cc447e944",
+    "timestamp": "2026-02-26T21:37:15.880Z",
+    "status": "skipped",
+    "details": "[Cloud] Actor with this name was not found"
+  },
+  {
+    "productId": "topsalesagent-6wnet",
+    "nodeId": "visit",
+    "leadId": "ae3319a6-02a3-4c78-a369-e192e8d004f9",
+    "timestamp": "2026-02-26T21:37:15.909Z",
+    "status": "fallback",
+    "details": "[ActionRouter] Extension visit stale/offline, falling back to Cloud"
+  },
+  {
+    "productId": "topsalesagent-6wnet",
+    "nodeId": "visit",
+    "leadId": "ae3319a6-02a3-4c78-a369-e192e8d004f9",
+    "timestamp": "2026-02-26T21:37:16.054Z",
+    "status": "skipped",
+    "details": "[Cloud] Actor with this name was not found"
+  },
+  {
+    "productId": "topsalesagent-12nnc",
+    "nodeId": "visit",
+    "leadId": "d5e73f40-b892-4b5f-9326-d7acb8dbd508",
+    "timestamp": "2026-02-26T21:37:16.065Z",
+    "status": "fallback",
+    "details": "[ActionRouter] Extension visit stale/offline, falling back to Cloud"
+  },
+  {
+    "productId": "topsalesagent-12nnc",
+    "nodeId": "visit",
+    "leadId": "d5e73f40-b892-4b5f-9326-d7acb8dbd508",
+    "timestamp": "2026-02-26T21:37:16.217Z",
+    "status": "skipped",
+    "details": "[Cloud] Actor with this name was not found"
+  },
+  {
+    "productId": "test-campaign-123",
+    "nodeId": "visit",
+    "leadId": "test-lead-456",
+    "timestamp": "2026-02-26T21:37:16.228Z",
+    "status": "fallback",
+    "details": "[ActionRouter] Extension visit stale/offline, falling back to Cloud"
+  },
+  {
+    "productId": "test-campaign-123",
+    "nodeId": "visit",
+    "leadId": "test-lead-456",
+    "timestamp": "2026-02-26T21:37:16.228Z",
+    "status": "skipped",
+    "details": "Extension offline and no LinkedIn cookie configured"
+  },
+  {
+    "productId": "nordic-airbnb-host",
+    "nodeId": "invite",
+    "leadId": "f52162ff-0f50-4658-af3c-513aa2a8113b",
+    "timestamp": "2026-02-26T21:37:16.238Z",
+    "status": "skipped",
+    "details": "Extension offline and no LinkedIn cookie configured"
+  },
+  {
+    "productId": "nordic-airbnb-host",
+    "nodeId": "invite",
+    "leadId": "7bb31fcd-338f-4620-92b3-06a9709a1db5",
+    "timestamp": "2026-02-26T21:37:16.247Z",
+    "status": "skipped",
+    "details": "Extension offline and no LinkedIn cookie configured"
+  },
+  {
+    "productId": "nordic-airbnb-host",
+    "nodeId": "invite",
+    "leadId": "9022173c-18ef-41cc-aa68-513b2bbf6e92",
+    "timestamp": "2026-02-26T21:37:16.252Z",
+    "status": "skipped",
+    "details": "Extension offline and no LinkedIn cookie configured"
+  },
+  {
+    "productId": "topsalesagent-ucjcr",
+    "nodeId": "invite",
+    "leadId": "49d6650c-7313-494b-ab51-a90cc447e944",
+    "timestamp": "2026-02-26T21:37:16.411Z",
+    "status": "skipped",
+    "details": "[Cloud] Actor with this name was not found"
+  },
+  {
+    "productId": "topsalesagent-6wnet",
+    "nodeId": "invite",
+    "leadId": "ae3319a6-02a3-4c78-a369-e192e8d004f9",
+    "timestamp": "2026-02-26T21:37:16.567Z",
+    "status": "skipped",
+    "details": "[Cloud] Actor with this name was not found"
+  },
+  {
+    "productId": "topsalesagent",
+    "nodeId": "condition",
+    "leadId": "f94e61c3-1fc4-4598-b34b-583da9434ecc",
+    "timestamp": "2026-02-26T21:38:16.006Z",
+    "status": "done",
+    "details": "[Cloud] Connection check for simoncowling: ACCEPTED (YES)"
+  },
+  {
+    "productId": "topsalesagent-5z924",
+    "timestamp": "2026-02-27T17:33:22.890Z",
+    "status": "launched",
+    "campaignStep": 1,
+    "contactCount": 1,
+    "details": "Campaign step 1 sent for TopSalesAgent. 1 personalized emails delivered."
+  },
+  {
+    "productId": "topsalesagent-5z924",
+    "nodeId": "visit",
+    "leadId": "d821dff6-b832-40df-9f1b-7bca921295b9",
+    "timestamp": "2026-02-27T17:33:23.531Z",
+    "status": "skipped",
+    "details": "[Cloud] Actor with this name was not found"
+  },
+  {
+    "productId": "topsalesagent",
+    "nodeId": "chat_yes1",
+    "leadId": "f94e61c3-1fc4-4598-b34b-583da9434ecc",
+    "timestamp": "2026-02-27T17:33:23.721Z",
+    "status": "skipped",
+    "details": "[Cloud] Actor with this name was not found"
+  },
+  {
+    "productId": "topsalesagent-5z924",
+    "nodeId": "invite",
+    "leadId": "d821dff6-b832-40df-9f1b-7bca921295b9",
+    "timestamp": "2026-02-27T17:33:23.898Z",
+    "status": "skipped",
+    "details": "[Cloud] Apify Actor \"curious_coder/linkedin-inviter\" not found or access denied."
+  },
+  {
+    "productId": "topsalesagent-l5icx",
+    "timestamp": "2026-02-27T17:42:09.420Z",
+    "status": "launched",
+    "campaignStep": 1,
+    "contactCount": 1,
+    "details": "Campaign step 1 sent for TopSalesAgent. 1 personalized emails delivered."
+  },
+  {
+    "productId": "topsalesagent-l5icx",
+    "nodeId": "visit",
+    "leadId": "10bfcaec-2acf-457f-b180-a755b7e9d844",
+    "timestamp": "2026-02-27T17:42:09.900Z",
+    "status": "skipped",
+    "details": "[Cloud] Actor with this name was not found"
+  },
+  {
+    "productId": "topsalesagent-l5icx",
+    "nodeId": "invite",
+    "leadId": "10bfcaec-2acf-457f-b180-a755b7e9d844",
+    "timestamp": "2026-02-27T17:42:10.073Z",
+    "status": "skipped",
+    "details": "[Cloud] Apify Actor \"curious_coder/linkedin-inviter\" not found or access denied."
+  }
+]

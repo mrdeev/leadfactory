@@ -1,0 +1,864 @@
+{
+  "products": [
+    {
+      "id": "topsalesagent",
+      "name": "TopSalesAgent",
+      "website": "topsalesagent.ai",
+      "description": "An AI-powered sales agent that automates sales processes 24/7, replacing human representatives. It handles customer inquiries and provides support around the clock. This increases efficiency and reduces labor costs.",
+      "industry": "Sales Automation",
+      "ceoName": "",
+      "ceoEmail": "",
+      "targetCustomers": "Businesses and sales teams",
+      "painPoints": "Inefficient sales processes, high labor costs, and limited customer support hours",
+      "valueProp": "24/7 automated sales support, increased efficiency, and reduced labor costs",
+      "createdAt": "2026-02-14T13:20:01.961Z",
+      "emailVerification": {
+        "email": "support@nordicairhost.com",
+        "status": "verified"
+      },
+      "senderEmail": "support@ai-rankrs.com",
+      "pipelineTemplate": "service",
+      "strategy": {
+        "targetAudience": "Medium to large-sized businesses with high sales volumes and customer support inquiries, particularly in e-commerce, software, and financial services industries, seeking to optimize their sales operations and reduce labor costs.",
+        "keyValueMessages": "TopSalesAgent increases sales efficiency by 30% and reduces labor costs by 25%, providing 24/7 customer support and automation of routine sales tasks, resulting in enhanced customer experience and revenue growth.",
+        "outreachApproach": "Multi-channel approach, including targeted email campaigns, social media advertising, and industry-specific events, to engage decision-makers such as sales directors, operations managers, and CEOs, and showcase the benefits of TopSalesAgent through demos and case studies.",
+        "followUpStrategy": "Personalized follow-up emails and phone calls to qualified leads, offering customized trials and pilots to demonstrate the value of TopSalesAgent, and providing ongoing support and training to ensure successful implementation and adoption.",
+        "successMetrics": "Key performance indicators (KPIs) include the number of demos and trials, conversion rates, customer acquisition costs, and customer satisfaction ratings, as well as revenue growth and return on investment (ROI) for clients using TopSalesAgent."
+      },
+      "approvalRequired": true,
+      "campaignStatus": "active",
+      "sendingMethod": "mailgun",
+      "mailgunConfig": {
+        "apiKey": "MAILGUN_API_KEY_PLACEHOLDER",
+        "domain": "ai-rankrs.com",
+        "region": "us"
+      },
+      "senderName": "Product Support",
+      "campaignSequence": {
+        "id": "7690e488-f3d7-457c-a3ed-9d75b30f9b5b",
+        "createdAt": "2026-02-25T15:48:04.011Z",
+        "emails": [
+          {
+            "step": 1,
+            "subjectApproach": "your work at destil",
+            "keyMessages": [
+              "I noticed you're responsible for managing inventory at DESTIL, which must be a challenging task",
+              "Your experience in logistics and supply chain management is quite impressive, especially in the context of DESTIL's operations"
+            ],
+            "cta": "What are some of the biggest challenges you face in your current role?",
+            "tone": "conversational, peer-to-peer, curious",
+            "delayDays": 0,
+            "purpose": "initial"
+          },
+          {
+            "step": 2,
+            "subjectApproach": "following up on destil's sales processes",
+            "keyMessages": [
+              "I came across an interesting article about how companies like DESTIL can benefit from automating certain sales tasks to free up more time for strategic decisions",
+              "It made me wonder if DESTIL has explored any innovative solutions to streamline its sales operations and improve customer engagement"
+            ],
+            "cta": "Would love to hear your thoughts on this, or if you'd be open to a quick conversation about your current sales processes",
+            "tone": "warm, low-pressure, adds value",
+            "delayDays": 4,
+            "purpose": "follow_up"
+          },
+          {
+            "step": 3,
+            "subjectApproach": "wishing you all the best",
+            "keyMessages": [
+              "I completely understand that things can get busy, and I didn't want to bother you further",
+              "If you're ever open to discussing ways to enhance your sales team's efficiency or exploring new solutions, my door is always open"
+            ],
+            "cta": "",
+            "tone": "brief, gracious, human",
+            "delayDays": 9,
+            "purpose": "breakup"
+          }
+        ],
+        "nodes": [
+          {
+            "id": "email1",
+            "type": "email",
+            "label": "Email",
+            "waitBeforeDays": 0,
+            "nextNodeId": "visit"
+          },
+          {
+            "id": "visit",
+            "type": "linkedin_visit",
+            "label": "Visit profile",
+            "waitBeforeDays": 0,
+            "nextNodeId": "invite"
+          },
+          {
+            "id": "invite",
+            "type": "linkedin_invite",
+            "label": "Invitation",
+            "waitBeforeDays": 0,
+            "nextNodeId": "condition"
+          },
+          {
+            "id": "condition",
+            "type": "condition",
+            "label": "Accepted invite within 5 days",
+            "waitBeforeDays": 5,
+            "yesNodeId": "chat_yes1",
+            "noNodeId": "email_no1"
+          },
+          {
+            "id": "chat_yes1",
+            "type": "linkedin_chat",
+            "label": "Chat message",
+            "waitBeforeDays": 1,
+            "nextNodeId": "email_yes"
+          },
+          {
+            "id": "email_yes",
+            "type": "email",
+            "label": "Email",
+            "waitBeforeDays": 1,
+            "nextNodeId": "chat_yes2"
+          },
+          {
+            "id": "chat_yes2",
+            "type": "linkedin_chat",
+            "label": "Chat message",
+            "waitBeforeDays": 3,
+            "nextNodeId": "email_final"
+          },
+          {
+            "id": "email_no1",
+            "type": "email",
+            "label": "Email",
+            "waitBeforeDays": 1,
+            "nextNodeId": "email_no2"
+          },
+          {
+            "id": "email_no2",
+            "type": "email",
+            "label": "Email",
+            "waitBeforeDays": 1,
+            "nextNodeId": "email_no3"
+          },
+          {
+            "id": "email_no3",
+            "type": "email",
+            "label": "Email",
+            "waitBeforeDays": 3,
+            "nextNodeId": "email_final"
+          },
+          {
+            "id": "email_final",
+            "type": "email",
+            "label": "Email",
+            "waitBeforeDays": 5,
+            "nextNodeId": "end"
+          },
+          {
+            "id": "end",
+            "type": "end",
+            "label": "End of sequence",
+            "waitBeforeDays": 0
+          }
+        ]
+      },
+      "linkedinCookie": "AQEDASLUz_cAaWzuAAABm8GKh6UAAAGcipzVKlYAdf0_NEW87UF9ovFHSwmeXI4kILeYpj-iG16xungHyfX2RTP8juzhw7BbGtTLj7_GoGvJdQND4veX79xzYFUBQ4zamfXtiflGAu76DLuTy6etScxn",
+      "linkedinConnected": false,
+      "linkedinAccountName": "nmjibon",
+      "extensionToken": "lf-ext-topsalesagent-2026",
+      "extensionConnected": true,
+      "extensionLastSeenAt": "2026-02-26T20:58:01.476Z"
+    },
+    {
+      "id": "persistence-test-jiiua",
+      "name": "Persistence Test",
+      "createdAt": "2026-02-24T22:44:37.287Z",
+      "emailVerification": {
+        "email": "",
+        "status": "unverified"
+      },
+      "strategy": {
+        "targetAudience": "The ideal customer profile for Persistence Test includes IT professionals, software developers, and quality assurance teams in medium to large-sized organizations across various industries, seeking to ensure the reliability and performance of their systems and applications.",
+        "keyValueMessages": "Persistence Test offers a comprehensive solution for testing system resilience, providing core value propositions such as improved system uptime, reduced downtime costs, and enhanced overall system performance, ultimately resulting in increased customer satisfaction and revenue.",
+        "outreachApproach": "The AI assistant will engage prospects through targeted email campaigns, social media outreach, and industry-specific events, highlighting the benefits of Persistence Test and offering personalized demos to showcase its capabilities and value.",
+        "followUpStrategy": "The follow-up strategy will involve regular email check-ins, phone calls, and progress updates, with the goal of building relationships, addressing concerns, and providing additional support to facilitate the decision-making process and drive sales conversions.",
+        "successMetrics": "Key performance indicators (KPIs) to track include the number of demos scheduled, conversion rates from demo to trial, and ultimately, the number of paid customers acquired, as well as customer satisfaction and retention rates to measure the overall effectiveness of the sales and marketing strategy."
+      },
+      "campaignStatus": "paused"
+    },
+    {
+      "id": "browser-test-campaignexample-domain-r0ham",
+      "name": "Browser Test CampaignExample Domain",
+      "website": "http://example.com",
+      "description": "A sample domain for documentation purposes. It is not intended for operational use. Provides a testing environment",
+      "industry": "Technology",
+      "ceoName": "",
+      "ceoEmail": "",
+      "targetCustomers": "Developers and testers",
+      "painPoints": "Need for a sample domain for testing and documentation",
+      "valueProp": "Convenient and permission-free domain for development and testing purposes",
+      "createdAt": "2026-02-24T22:55:09.500Z",
+      "emailVerification": {
+        "email": "",
+        "status": "unverified"
+      },
+      "campaignStatus": "paused"
+    },
+    {
+      "id": "nordic-airbnb-host",
+      "name": "Nordic Airbnb Host",
+      "website": "nordicairhost.com",
+      "description": "Short-term rental management for property owners in the Nordic region.",
+      "industry": "Real Estate / Hospitality",
+      "createdAt": "2026-02-22T14:12:31.000Z",
+      "campaignStatus": "paused",
+      "approvalRequired": false,
+      "emailVerification": {
+        "email": "support@nordicairhost.com",
+        "status": "verified"
+      },
+      "strategy": {
+        "targetAudience": "Property owners and managers in the Nordic region, including Denmark, Norway, Sweden, Finland, and Iceland, who rent out their properties on short-term rental platforms like Airbnb, Vrbo, and Booking.com.",
+        "keyValueMessages": "Maximize rental income, minimize management hassle, and ensure compliance with local regulations through our comprehensive short-term rental management services, tailored to the Nordic market.",
+        "outreachApproach": "Personalized email campaigns, targeted social media ads, and strategic partnerships with local property associations and tourism boards to reach potential clients and showcase the benefits of our services.",
+        "followUpStrategy": "Scheduled phone calls, tailored proposals, and case studies of successful clients to nurture leads, address concerns, and demonstrate the value of our expertise in navigating the Nordic short-term rental market.",
+        "successMetrics": "Client acquisition rate, revenue growth, average occupancy rates, and customer satisfaction ratings to measure the effectiveness of our marketing efforts and continually improve our services."
+      },
+      "campaignSequence": {
+        "id": "df6057c8-b088-4283-977c-4ab969f3eaa3",
+        "createdAt": "2026-02-25T16:13:39.213Z",
+        "emails": [
+          {
+            "step": 1,
+            "subjectApproach": "your work at bruce mau design",
+            "keyMessages": [
+              "I noticed that Bruce Mau Design has worked with a wide range of innovative companies, and I'm curious about the types of projects you've led as an Account Director.",
+              "Your background in design and branding seems to align with the creative aspects of short-term rental management, and I'd love to explore potential connections."
+            ],
+            "cta": "What do you think are some of the most interesting challenges in balancing design and functionality in your current projects?",
+            "tone": "conversational, peer-to-peer, curious",
+            "delayDays": 0,
+            "purpose": "initial"
+          },
+          {
+            "step": 2,
+            "subjectApproach": "following up on our previous conversation",
+            "keyMessages": [
+              "I came across an article about the growing demand for unique, design-driven short-term rentals in the Nordic region, and I thought of your experience in the design industry.",
+              "It made me wonder if you've ever considered how your skills could be applied to the short-term rental market, perhaps in terms of creating exceptional guest experiences."
+            ],
+            "cta": "Would you be open to a quick call to discuss how design and short-term rentals might intersect?",
+            "tone": "warm, low-pressure, adds value",
+            "delayDays": 4,
+            "purpose": "follow_up"
+          },
+          {
+            "step": 3,
+            "subjectApproach": "no pressure, just a hello",
+            "keyMessages": [
+              "I completely understand that things can get busy, and I didn't want to assume you had time to discuss short-term rentals and design.",
+              "If you're ever looking for new ideas or just want to chat about design and innovation, my inbox is always open."
+            ],
+            "cta": "No need to respond unless you'd like to explore something new.",
+            "tone": "brief, gracious, human",
+            "delayDays": 9,
+            "purpose": "breakup"
+          }
+        ],
+        "nodes": [
+          {
+            "id": "email1",
+            "type": "email",
+            "label": "Email",
+            "waitBeforeDays": 0,
+            "nextNodeId": "visit"
+          },
+          {
+            "id": "visit",
+            "type": "linkedin_visit",
+            "label": "Visit profile",
+            "waitBeforeDays": 0,
+            "nextNodeId": "invite"
+          },
+          {
+            "id": "invite",
+            "type": "linkedin_invite",
+            "label": "Invitation",
+            "waitBeforeDays": 0,
+            "nextNodeId": "condition"
+          },
+          {
+            "id": "condition",
+            "type": "condition",
+            "label": "Accepted invite within 5 days",
+            "waitBeforeDays": 5,
+            "yesNodeId": "chat_yes1",
+            "noNodeId": "email_no1"
+          },
+          {
+            "id": "chat_yes1",
+            "type": "linkedin_chat",
+            "label": "Chat message",
+            "waitBeforeDays": 1,
+            "nextNodeId": "email_yes"
+          },
+          {
+            "id": "email_yes",
+            "type": "email",
+            "label": "Email",
+            "waitBeforeDays": 1,
+            "nextNodeId": "chat_yes2"
+          },
+          {
+            "id": "chat_yes2",
+            "type": "linkedin_chat",
+            "label": "Chat message",
+            "waitBeforeDays": 3,
+            "nextNodeId": "email_final"
+          },
+          {
+            "id": "email_no1",
+            "type": "email",
+            "label": "Email",
+            "waitBeforeDays": 1,
+            "nextNodeId": "email_no2"
+          },
+          {
+            "id": "email_no2",
+            "type": "email",
+            "label": "Email",
+            "waitBeforeDays": 1,
+            "nextNodeId": "email_no3"
+          },
+          {
+            "id": "email_no3",
+            "type": "email",
+            "label": "Email",
+            "waitBeforeDays": 3,
+            "nextNodeId": "email_final"
+          },
+          {
+            "id": "email_final",
+            "type": "email",
+            "label": "Email",
+            "waitBeforeDays": 5,
+            "nextNodeId": "end"
+          },
+          {
+            "id": "end",
+            "type": "end",
+            "label": "End of sequence",
+            "waitBeforeDays": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "topsalesagent-ucjcr",
+      "name": "TopSalesAgent",
+      "website": "topsalesagent.ai",
+      "description": "An AI-powered sales agent that automates sales processes 24/7, replacing human representatives. It handles customer inquiries and provides support around the clock. This increases efficiency and reduces labor costs.",
+      "industry": "Sales Automation",
+      "ceoName": "",
+      "ceoEmail": "",
+      "targetCustomers": "Businesses and sales teams",
+      "painPoints": "Inefficient sales processes, high labor costs, and limited customer support hours",
+      "valueProp": "24/7 automated sales support, increased efficiency, and reduced labor costs",
+      "createdAt": "2026-02-26T16:40:29.334Z",
+      "emailVerification": {
+        "email": "",
+        "status": "unverified"
+      },
+      "senderEmail": "support@ai-rankrs.com",
+      "pipelineTemplate": "service",
+      "strategy": {
+        "targetAudience": "Medium to large-sized businesses with high sales volumes and customer support inquiries, particularly in e-commerce, software, and financial services industries, seeking to optimize their sales operations and reduce labor costs.",
+        "keyValueMessages": "TopSalesAgent increases sales efficiency by 30% and reduces labor costs by 25%, providing 24/7 customer support and automation of routine sales tasks, resulting in enhanced customer experience and revenue growth.",
+        "outreachApproach": "Multi-channel approach, including targeted email campaigns, social media advertising, and industry-specific events, to engage decision-makers such as sales directors, operations managers, and CEOs, and showcase the benefits of TopSalesAgent through demos and case studies.",
+        "followUpStrategy": "Personalized follow-up emails and phone calls to qualified leads, offering customized trials and pilots to demonstrate the value of TopSalesAgent, and providing ongoing support and training to ensure successful implementation and adoption.",
+        "successMetrics": "Key performance indicators (KPIs) include the number of demos and trials, conversion rates, customer acquisition costs, and customer satisfaction ratings, as well as revenue growth and return on investment (ROI) for clients using TopSalesAgent."
+      },
+      "approvalRequired": true,
+      "sendingMethod": "mailgun",
+      "mailgunConfig": {
+        "apiKey": "MAILGUN_API_KEY_PLACEHOLDER",
+        "domain": "ai-rankrs.com",
+        "region": "us"
+      },
+      "senderName": "Product Support",
+      "linkedinCookie": "AQEDASLUz_cAaWzuAAABm8GKh6UAAAGcipzVKlYAdf0_NEW87UF9ovFHSwmeXI4kILeYpj-iG16xungHyfX2RTP8juzhw7BbGtTLj7_GoGvJdQND4veX79xzYFUBQ4zamfXtiflGAu76DLuTy6etScxn",
+      "linkedinConnected": false,
+      "linkedinAccountName": "nmjibon",
+      "extensionToken": "lf-ext-topsalesagent-2026",
+      "extensionConnected": true,
+      "extensionLastSeenAt": "2026-02-26T16:40:01.496Z",
+      "campaignSequence": {
+        "id": "1fdc6d94-7881-4999-b596-4cd90480f4b4",
+        "createdAt": "2026-02-26T16:40:50.066Z",
+        "emails": [
+          {
+            "step": 1,
+            "subjectApproach": "your sales team at [Company]",
+            "keyMessages": [
+              "I noticed your team has been growing rapidly, with several new sales hires in the past quarter.",
+              "Your company's focus on innovate sales strategies is impressive, especially in the [industry/field] sector."
+            ],
+            "cta": "What are some of the biggest challenges your sales team faces in terms of efficiency and customer support?",
+            "tone": "conversational, peer-to-peer, curious",
+            "delayDays": 0,
+            "purpose": "initial"
+          },
+          {
+            "step": 2,
+            "subjectApproach": "following up on your sales team's growth",
+            "keyMessages": [
+              "I came across an interesting stat that [percentage]% of companies struggle with 24/7 customer support, which made me think of our previous conversation.",
+              "I've seen businesses in similar situations find success by automating certain aspects of their sales processes to free up more time for strategic growth."
+            ],
+            "cta": "Would love to hear more about your current approach to sales support and if there's anything on your radar for improvement.",
+            "tone": "warm, low-pressure, adds value",
+            "delayDays": 4,
+            "purpose": "follow_up"
+          },
+          {
+            "step": 3,
+            "subjectApproach": "no pressure, just a thank you",
+            "keyMessages": [
+              "I completely understand that things get busy, and I wanted to thank you for your time regardless of your current priorities.",
+              "If the topic of sales process optimization ever becomes more relevant, my door is open for a no-obligation conversation."
+            ],
+            "cta": "",
+            "tone": "brief, gracious, human",
+            "delayDays": 9,
+            "purpose": "breakup"
+          }
+        ],
+        "nodes": [
+          {
+            "id": "email1",
+            "type": "email",
+            "label": "Email",
+            "waitBeforeDays": 0,
+            "nextNodeId": "visit"
+          },
+          {
+            "id": "visit",
+            "type": "linkedin_visit",
+            "label": "Visit profile",
+            "waitBeforeDays": 0,
+            "nextNodeId": "invite"
+          },
+          {
+            "id": "invite",
+            "type": "linkedin_invite",
+            "label": "Invitation",
+            "waitBeforeDays": 0,
+            "nextNodeId": "condition"
+          },
+          {
+            "id": "condition",
+            "type": "condition",
+            "label": "Accepted invite within 5 days",
+            "waitBeforeDays": 5,
+            "yesNodeId": "chat_yes1",
+            "noNodeId": "email_no1"
+          },
+          {
+            "id": "chat_yes1",
+            "type": "linkedin_chat",
+            "label": "Chat message",
+            "waitBeforeDays": 1,
+            "nextNodeId": "email_yes"
+          },
+          {
+            "id": "email_yes",
+            "type": "email",
+            "label": "Email",
+            "waitBeforeDays": 1,
+            "nextNodeId": "chat_yes2"
+          },
+          {
+            "id": "chat_yes2",
+            "type": "linkedin_chat",
+            "label": "Chat message",
+            "waitBeforeDays": 3,
+            "nextNodeId": "email_final"
+          },
+          {
+            "id": "email_no1",
+            "type": "email",
+            "label": "Email",
+            "waitBeforeDays": 1,
+            "nextNodeId": "email_no2"
+          },
+          {
+            "id": "email_no2",
+            "type": "email",
+            "label": "Email",
+            "waitBeforeDays": 1,
+            "nextNodeId": "email_no3"
+          },
+          {
+            "id": "email_no3",
+            "type": "email",
+            "label": "Email",
+            "waitBeforeDays": 3,
+            "nextNodeId": "email_final"
+          },
+          {
+            "id": "email_final",
+            "type": "email",
+            "label": "Email",
+            "waitBeforeDays": 5,
+            "nextNodeId": "end"
+          },
+          {
+            "id": "end",
+            "type": "end",
+            "label": "End of sequence",
+            "waitBeforeDays": 0
+          }
+        ]
+      },
+      "campaignStatus": "paused"
+    },
+    {
+      "id": "topsalesagent-l5icx",
+      "name": "TopSalesAgent",
+      "website": "topsalesagent.ai",
+      "description": "An AI-powered sales agent that automates sales processes 24/7, replacing human representatives. It handles customer inquiries and provides support around the clock. This increases efficiency and reduces labor costs.",
+      "industry": "Sales Automation",
+      "ceoName": "",
+      "ceoEmail": "",
+      "targetCustomers": "Businesses and sales teams",
+      "painPoints": "Inefficient sales processes, high labor costs, and limited customer support hours",
+      "valueProp": "24/7 automated sales support, increased efficiency, and reduced labor costs",
+      "createdAt": "2026-02-27T17:41:16.113Z",
+      "emailVerification": {
+        "email": "",
+        "status": "unverified"
+      },
+      "senderEmail": "support@ai-rankrs.com",
+      "pipelineTemplate": "service",
+      "strategy": {
+        "targetAudience": "Medium to large-sized businesses with high sales volumes and customer support inquiries, particularly in e-commerce, software, and financial services industries, seeking to optimize their sales operations and reduce labor costs.",
+        "keyValueMessages": "TopSalesAgent increases sales efficiency by 30% and reduces labor costs by 25%, providing 24/7 customer support and automation of routine sales tasks, resulting in enhanced customer experience and revenue growth.",
+        "outreachApproach": "Multi-channel approach, including targeted email campaigns, social media advertising, and industry-specific events, to engage decision-makers such as sales directors, operations managers, and CEOs, and showcase the benefits of TopSalesAgent through demos and case studies.",
+        "followUpStrategy": "Personalized follow-up emails and phone calls to qualified leads, offering customized trials and pilots to demonstrate the value of TopSalesAgent, and providing ongoing support and training to ensure successful implementation and adoption.",
+        "successMetrics": "Key performance indicators (KPIs) include the number of demos and trials, conversion rates, customer acquisition costs, and customer satisfaction ratings, as well as revenue growth and return on investment (ROI) for clients using TopSalesAgent."
+      },
+      "approvalRequired": true,
+      "sendingMethod": "mailgun",
+      "mailgunConfig": {
+        "apiKey": "MAILGUN_API_KEY_PLACEHOLDER",
+        "domain": "ai-rankrs.com",
+        "region": "us"
+      },
+      "senderName": "Product Support",
+      "linkedinCookie": "AQEDASLUz_cAaWzuAAABm8GKh6UAAAGcipzVKlYAdf0_NEW87UF9ovFHSwmeXI4kILeYpj-iG16xungHyfX2RTP8juzhw7BbGtTLj7_GoGvJdQND4veX79xzYFUBQ4zamfXtiflGAu76DLuTy6etScxn",
+      "linkedinConnected": false,
+      "linkedinAccountName": "nmjibon",
+      "extensionToken": "lf-ext-topsalesagent-2026",
+      "extensionConnected": true,
+      "extensionLastSeenAt": "2026-02-26T20:58:01.476Z",
+      "campaignSequence": {
+        "id": "37f4e71d-a4a6-49fd-80b4-81bacdcf3009",
+        "createdAt": "2026-02-27T17:41:34.231Z",
+        "emails": [
+          {
+            "step": 1,
+            "subjectApproach": "your work at destil",
+            "keyMessages": [
+              "I noticed you're responsible for managing inventory at DESTIL, which seems like a challenging task.",
+              "Your experience in this role must give you a unique perspective on what makes sales and customer support processes efficient."
+            ],
+            "cta": "What are some of the biggest hurdles you face in your current role?",
+            "tone": "conversational, peer-to-peer, curious",
+            "delayDays": 0,
+            "purpose": "initial"
+          },
+          {
+            "step": 2,
+            "subjectApproach": "following up on destil sales support",
+            "keyMessages": [
+              "I came across an article discussing how automated sales agents can help reduce labor costs and increase efficiency in customer support.",
+              "It made me think of your work at DESTIL and how you might be looking for ways to optimize your sales processes."
+            ],
+            "cta": "Would love to hear your thoughts on this, are you open to a quick conversation?",
+            "tone": "warm, low-pressure, adds value",
+            "delayDays": 4,
+            "purpose": "follow_up"
+          },
+          {
+            "step": 3,
+            "subjectApproach": "wishing you all the best",
+            "keyMessages": [
+              "I completely understand that things can get busy, and I don't want to add to your workload.",
+              "If you're ever looking to discuss ways to improve your sales and customer support, my door is open for a chat."
+            ],
+            "cta": "",
+            "tone": "brief, gracious, human",
+            "delayDays": 9,
+            "purpose": "breakup"
+          }
+        ],
+        "nodes": [
+          {
+            "id": "email1",
+            "type": "email",
+            "label": "Email — Opening touch",
+            "waitBeforeDays": 0,
+            "nextNodeId": "visit"
+          },
+          {
+            "id": "visit",
+            "type": "linkedin_visit",
+            "label": "Visit profile",
+            "waitBeforeDays": 0,
+            "nextNodeId": "invite"
+          },
+          {
+            "id": "invite",
+            "type": "linkedin_invite",
+            "label": "Invitation",
+            "waitBeforeDays": 0,
+            "nextNodeId": "condition"
+          },
+          {
+            "id": "condition",
+            "type": "condition",
+            "label": "Accepted invite within 5 days",
+            "waitBeforeDays": 5,
+            "yesNodeId": "chat_yes1",
+            "noNodeId": "email_no1"
+          },
+          {
+            "id": "chat_yes1",
+            "type": "linkedin_chat",
+            "label": "Chat message",
+            "waitBeforeDays": 1,
+            "nextNodeId": "email_yes"
+          },
+          {
+            "id": "email_yes",
+            "type": "email",
+            "label": "Email",
+            "waitBeforeDays": 1,
+            "nextNodeId": "chat_yes2"
+          },
+          {
+            "id": "chat_yes2",
+            "type": "linkedin_chat",
+            "label": "Chat message",
+            "waitBeforeDays": 3,
+            "nextNodeId": "email_final"
+          },
+          {
+            "id": "email_no1",
+            "type": "email",
+            "label": "Email",
+            "waitBeforeDays": 1,
+            "nextNodeId": "email_no2"
+          },
+          {
+            "id": "email_no2",
+            "type": "email",
+            "label": "Email",
+            "waitBeforeDays": 1,
+            "nextNodeId": "email_no3"
+          },
+          {
+            "id": "email_no3",
+            "type": "email",
+            "label": "Email",
+            "waitBeforeDays": 3,
+            "nextNodeId": "email_final"
+          },
+          {
+            "id": "email_final",
+            "type": "email",
+            "label": "Email",
+            "waitBeforeDays": 5,
+            "nextNodeId": "end"
+          },
+          {
+            "id": "end",
+            "type": "end",
+            "label": "End of sequence",
+            "waitBeforeDays": 0
+          }
+        ]
+      },
+      "campaignStatus": "active"
+    },
+    {
+      "id": "topsalesagent-bng4q",
+      "name": "TopSalesAgent",
+      "website": "topsalesagent.ai",
+      "description": "An AI-powered sales agent that automates sales processes 24/7, replacing human representatives. It handles customer inquiries and provides support around the clock. This increases efficiency and reduces labor costs.",
+      "industry": "Sales Automation",
+      "ceoName": "",
+      "ceoEmail": "",
+      "targetCustomers": "Businesses and sales teams",
+      "painPoints": "Inefficient sales processes, high labor costs, and limited customer support hours",
+      "valueProp": "24/7 automated sales support, increased efficiency, and reduced labor costs",
+      "createdAt": "2026-03-04T15:58:09.032Z",
+      "emailVerification": {
+        "email": "",
+        "status": "unverified"
+      },
+      "senderEmail": "support@ai-rankrs.com",
+      "pipelineTemplate": "service",
+      "strategy": {
+        "targetAudience": "Medium to large-sized businesses with high sales volumes and customer support inquiries, particularly in e-commerce, software, and financial services industries, seeking to optimize their sales operations and reduce labor costs.",
+        "keyValueMessages": "TopSalesAgent increases sales efficiency by 30% and reduces labor costs by 25%, providing 24/7 customer support and automation of routine sales tasks, resulting in enhanced customer experience and revenue growth.",
+        "outreachApproach": "Multi-channel approach, including targeted email campaigns, social media advertising, and industry-specific events, to engage decision-makers such as sales directors, operations managers, and CEOs, and showcase the benefits of TopSalesAgent through demos and case studies.",
+        "followUpStrategy": "Personalized follow-up emails and phone calls to qualified leads, offering customized trials and pilots to demonstrate the value of TopSalesAgent, and providing ongoing support and training to ensure successful implementation and adoption.",
+        "successMetrics": "Key performance indicators (KPIs) include the number of demos and trials, conversion rates, customer acquisition costs, and customer satisfaction ratings, as well as revenue growth and return on investment (ROI) for clients using TopSalesAgent."
+      },
+      "approvalRequired": true,
+      "sendingMethod": "mailgun",
+      "mailgunConfig": {
+        "apiKey": "MAILGUN_API_KEY_PLACEHOLDER",
+        "domain": "ai-rankrs.com",
+        "region": "us"
+      },
+      "senderName": "Product Support",
+      "linkedinCookie": "AQEDASLUz_cAaWzuAAABm8GKh6UAAAGcipzVKlYAdf0_NEW87UF9ovFHSwmeXI4kILeYpj-iG16xungHyfX2RTP8juzhw7BbGtTLj7_GoGvJdQND4veX79xzYFUBQ4zamfXtiflGAu76DLuTy6etScxn",
+      "linkedinConnected": false,
+      "linkedinAccountName": "nmjibon",
+      "extensionToken": "lf-ext-topsalesagent-2026",
+      "extensionConnected": true,
+      "extensionLastSeenAt": "2026-02-26T20:58:01.476Z",
+      "campaignSequence": {
+        "id": "efb6f1c5-66cc-4f76-a32b-bca98ac334d0",
+        "createdAt": "2026-03-04T15:58:43.751Z",
+        "emails": [
+          {
+            "step": 1,
+            "subjectApproach": "your work at chartered accountants australia and new zealand",
+            "keyMessages": [
+              "I noticed you're leading the LMS & Logistics team, which seems like a challenging role",
+              "Your background in the Chartered Accountants Program is quite impressive, how do you think it's helped you in your current position?"
+            ],
+            "cta": "What's the most interesting project you've worked on recently?",
+            "tone": "conversational, peer-to-peer, curious",
+            "delayDays": 0,
+            "purpose": "initial"
+          },
+          {
+            "step": 2,
+            "subjectApproach": "following up on your work",
+            "keyMessages": [
+              "I came across an article about the importance of efficient sales processes in the accounting industry, and it made me think of your role",
+              "I've seen how automating certain tasks can really help reduce labor costs and increase productivity, have you explored any solutions like that?"
+            ],
+            "cta": "Would love to hear your thoughts on this, are you open to a quick conversation?",
+            "tone": "warm, low-pressure, adds value",
+            "delayDays": 4,
+            "purpose": "follow_up"
+          },
+          {
+            "step": 3,
+            "subjectApproach": "no pressure, just checking in",
+            "keyMessages": [
+              "I know you're busy, and I don't want to add to your inbox clutter",
+              "If you're ever looking to discuss ways to optimize your sales processes, I'm here to listen and help"
+            ],
+            "cta": "No need to respond, just wanted to leave the door open",
+            "tone": "brief, gracious, human",
+            "delayDays": 9,
+            "purpose": "breakup"
+          }
+        ],
+        "nodes": [
+          {
+            "id": "email1",
+            "type": "email",
+            "label": "Email — Opening touch",
+            "waitBeforeDays": 0,
+            "nextNodeId": "visit"
+          },
+          {
+            "id": "visit",
+            "type": "linkedin_visit",
+            "label": "Visit profile",
+            "waitBeforeDays": 0,
+            "nextNodeId": "invite"
+          },
+          {
+            "id": "invite",
+            "type": "linkedin_invite",
+            "label": "Invitation",
+            "waitBeforeDays": 1,
+            "nextNodeId": "condition"
+          },
+          {
+            "id": "condition",
+            "type": "condition",
+            "label": "Accepted invite within 5 days",
+            "waitBeforeDays": 5,
+            "yesNodeId": "chat_yes1",
+            "noNodeId": "email_no1"
+          },
+          {
+            "id": "chat_yes1",
+            "type": "linkedin_chat",
+            "label": "Chat message",
+            "waitBeforeDays": 1,
+            "nextNodeId": "email_yes"
+          },
+          {
+            "id": "email_yes",
+            "type": "email",
+            "label": "Email",
+            "waitBeforeDays": 1,
+            "nextNodeId": "chat_yes2"
+          },
+          {
+            "id": "chat_yes2",
+            "type": "linkedin_chat",
+            "label": "Chat message",
+            "waitBeforeDays": 3,
+            "nextNodeId": "email_final"
+          },
+          {
+            "id": "email_no1",
+            "type": "email",
+            "label": "Email",
+            "waitBeforeDays": 1,
+            "nextNodeId": "email_no2"
+          },
+          {
+            "id": "email_no2",
+            "type": "email",
+            "label": "Email",
+            "waitBeforeDays": 1,
+            "nextNodeId": "email_no3"
+          },
+          {
+            "id": "email_no3",
+            "type": "email",
+            "label": "Email",
+            "waitBeforeDays": 3,
+            "nextNodeId": "email_final"
+          },
+          {
+            "id": "email_final",
+            "type": "email",
+            "label": "Email",
+            "waitBeforeDays": 5,
+            "nextNodeId": "end"
+          },
+          {
+            "id": "end",
+            "type": "end",
+            "label": "End of sequence",
+            "waitBeforeDays": 0
+          }
+        ]
+      }
+    }
+  ],
+  "contacts": []
+}

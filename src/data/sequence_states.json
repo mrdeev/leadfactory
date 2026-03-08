@@ -1,0 +1,132 @@
+[
+  {
+    "id": "4ea1d1e8-e2df-48b5-8e09-f42311027214",
+    "leadId": "57e4179e-4789-4bb3-94a1-0ff147b51ed0",
+    "productId": "topsalesagent",
+    "sequenceNodeId": "visit",
+    "sequenceEnteredAt": "2026-02-22T14:12:31.387Z",
+    "sequenceWaitUntil": "2026-02-23T14:12:31.387Z",
+    "status": "failed",
+    "updatedAt": "2026-02-25T13:54:53.276Z"
+  },
+  {
+    "id": "ce0581fb-f8a2-4476-b0dc-437f1c8fc8a0",
+    "leadId": "e5947dbe-ab41-4b8d-aacc-bab899d05307",
+    "productId": "topsalesagent",
+    "sequenceNodeId": "visit",
+    "sequenceEnteredAt": "2026-02-22T21:20:51.732Z",
+    "sequenceWaitUntil": "2026-02-23T21:20:51.732Z",
+    "status": "failed",
+    "updatedAt": "2026-02-25T13:54:53.282Z"
+  },
+  {
+    "id": "231d8c66-714e-458b-8a9c-9ef8914c89d0",
+    "leadId": "6a20f90e-f241-46a0-bb4b-7b4c78169ae0",
+    "productId": "topsalesagent",
+    "sequenceNodeId": "visit",
+    "sequenceEnteredAt": "2026-02-24T22:15:03.885Z",
+    "sequenceWaitUntil": "2026-02-24T22:15:03.885Z",
+    "status": "failed",
+    "updatedAt": "2026-02-25T13:54:53.289Z"
+  },
+  {
+    "id": "450272bc-3d16-43b0-b92c-ee3256e4b3aa",
+    "leadId": "18197be8-ec27-4066-9ebe-89bebe564831",
+    "productId": "topsalesagent",
+    "sequenceNodeId": "visit",
+    "sequenceEnteredAt": "2026-02-24T22:21:32.909Z",
+    "sequenceWaitUntil": "2026-02-24T22:21:32.909Z",
+    "status": "failed",
+    "updatedAt": "2026-02-25T13:54:53.294Z"
+  },
+  {
+    "id": "2807cf9d-e023-46fc-a0a5-0428fbcf2ad9",
+    "leadId": "f12c3d7e-5254-48ed-9d8e-67b9e0765bb2",
+    "productId": "topsalesagent",
+    "sequenceNodeId": "visit",
+    "sequenceEnteredAt": "2026-02-24T22:27:55.265Z",
+    "sequenceWaitUntil": "2026-02-24T22:27:55.265Z",
+    "status": "failed",
+    "updatedAt": "2026-02-25T13:54:53.302Z"
+  },
+  {
+    "id": "d1c68e34-664a-421e-ac92-3d26e5a28ad1",
+    "leadId": "e698424d-c57e-48b0-bb7a-a2f9c5ae1f8f",
+    "productId": "topsalesagent",
+    "sequenceNodeId": "invite",
+    "sequenceEnteredAt": "2026-02-25T13:55:28.963Z",
+    "sequenceWaitUntil": "2026-02-25T13:55:28.963Z",
+    "status": "failed",
+    "updatedAt": "2026-02-25T15:02:35.874Z"
+  },
+  {
+    "id": "b4b7ec53-73f5-43fb-90f7-2fab6afa3f7b",
+    "leadId": "ac9ce4b7-9169-4236-83d3-e88cd4034d3f",
+    "productId": "topsalesagent",
+    "sequenceNodeId": "chat_yes1",
+    "sequenceEnteredAt": "2026-02-25T15:06:58.588Z",
+    "sequenceWaitUntil": "2026-02-26T15:06:58.588Z",
+    "status": "failed",
+    "updatedAt": "2026-02-25T15:59:54.224Z"
+  },
+  {
+    "id": "23623e35-c910-46dc-ae18-f2a6d8bcc13a",
+    "leadId": "f94e61c3-1fc4-4598-b34b-583da9434ecc",
+    "productId": "topsalesagent",
+    "sequenceNodeId": "email_yes",
+    "sequenceEnteredAt": "2026-02-27T17:33:23.722Z",
+    "sequenceWaitUntil": "2026-02-28T17:33:23.722Z",
+    "status": "active",
+    "updatedAt": "2026-02-27T17:33:23.722Z"
+  },
+  {
+    "id": "fec3768f-9158-49b7-9511-27d0c04cc286",
+    "leadId": "f52162ff-0f50-4658-af3c-513aa2a8113b",
+    "productId": "nordic-airbnb-host",
+    "sequenceNodeId": "condition",
+    "sequenceEnteredAt": "2026-02-26T21:37:16.239Z",
+    "sequenceWaitUntil": "2026-03-03T21:37:16.239Z",
+    "status": "active",
+    "updatedAt": "2026-02-26T21:37:16.239Z"
+  },
+  {
+    "id": "f5da65c4-ba23-48da-9da3-e0e07b30bd8d",
+    "leadId": "7bb31fcd-338f-4620-92b3-06a9709a1db5",
+    "productId": "nordic-airbnb-host",
+    "sequenceNodeId": "condition",
+    "sequenceEnteredAt": "2026-02-26T21:37:16.247Z",
+    "sequenceWaitUntil": "2026-03-03T21:37:16.247Z",
+    "status": "active",
+    "updatedAt": "2026-02-26T21:37:16.247Z"
+  },
+  {
+    "id": "8de0fea8-818a-4f7a-8103-bd16aa6b8b7b",
+    "leadId": "9022173c-18ef-41cc-aa68-513b2bbf6e92",
+    "productId": "nordic-airbnb-host",
+    "sequenceNodeId": "condition",
+    "sequenceEnteredAt": "2026-02-26T21:37:16.252Z",
+    "sequenceWaitUntil": "2026-03-03T21:37:16.252Z",
+    "status": "active",
+    "updatedAt": "2026-02-26T21:37:16.253Z"
+  },
+  {
+    "id": "b599b982-a2ca-4596-94c7-cb8657e31acf",
+    "leadId": "49d6650c-7313-494b-ab51-a90cc447e944",
+    "productId": "topsalesagent-ucjcr",
+    "sequenceNodeId": "condition",
+    "sequenceEnteredAt": "2026-02-26T21:37:16.411Z",
+    "sequenceWaitUntil": "2026-03-03T21:37:16.411Z",
+    "status": "active",
+    "updatedAt": "2026-02-26T21:37:16.411Z"
+  },
+  {
+    "id": "588e2499-d54a-4345-ae4b-c697f0924ee5",
+    "leadId": "10bfcaec-2acf-457f-b180-a755b7e9d844",
+    "productId": "topsalesagent-l5icx",
+    "sequenceNodeId": "condition",
+    "sequenceEnteredAt": "2026-02-27T17:42:10.074Z",
+    "sequenceWaitUntil": "2026-03-04T17:42:10.074Z",
+    "status": "active",
+    "updatedAt": "2026-02-27T17:42:10.074Z"
+  }
+]

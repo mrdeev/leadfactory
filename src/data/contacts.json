@@ -1,0 +1,528 @@
+[
+  {
+    "id": "test-lead-456",
+    "productId": "test-campaign-123",
+    "fullName": "Test LinkedIn Lead",
+    "email": "test-lead@example.com",
+    "linkedinUrl": "https://www.linkedin.com/in/test-profile/",
+    "status": "active",
+    "campaignStep": 1,
+    "createdAt": "2026-02-26T21:13:00.000Z",
+    "generatedEmail": "I saw you're involved with the Test LinkedIn Campaign, what inspired that name, Test?",
+    "generatedSubject": "quick thought",
+    "campaignStepAt": "2026-02-26T21:14:37.041Z",
+    "launchedAt": "2026-02-26T21:14:37.041Z",
+    "sequenceNodeId": "visit",
+    "updatedAt": "2026-02-26T21:14:37.565Z"
+  },
+  {
+    "city": "Toronto",
+    "country": "Canada",
+    "email": "marcucci@brucemaudesign.com",
+    "firstName": "Patricia",
+    "fullName": "Patricia Marcucci",
+    "functional": "",
+    "lastName": "Marcucci",
+    "linkedinUrl": "http://www.linkedin.com/in/patricia-marcucci-87a05a1a",
+    "orgCity": "Toronto",
+    "orgCountry": "Canada",
+    "orgDescription": "Bruce Mau Design (BMD) is a multidisciplinary brand design firm working worldwide with organizations shaping the future of their respective industries.\\\\Our mission is the mission. We identify the fundamental purpose behind an organization to create a generative and sustainable brand narrative. This unique point of view allows us to create distinctive and unifying platforms that bring strategic clarity to brand positioning and messaging, visual identity systems, physical environments, and consumer packaging. Our passion is to bring compelling ideas to life, invigorate brands, and help businesses grow.\\\\Our research methods, deep cultural immersion, and on-site collaborative pop-up studios ensure a profound understanding of the challenges and context behind each project, which enables us to deliver on our clients'​ strategic business goals.\\\\We work with large international corporations, visionary start-ups, innovative retailers, expansive cultural organizations, ambitious architects, city builders, and governments. Our international staff is a diverse group of industry-recognized graphic designers, architects, strategists, UX experts, copywriters, and account leads who think beyond the silos of traditional disciplines.\\\\We are unrelenting in our commitment to leading-edge design. Our creative work is recognized for its depth of thought, clarity of purpose, and boldness of vision. Our many awards include a Cannes Lion, a D&AD Pencil, two Fast Company \"Best Branding\" awards, and two Core77 Design Awards. Our thought leadership has been showcased at SXSW, the World Knowledge Forum, and at conferences and universities worldwide.",
+    "orgFoundedYear": 1985,
+    "orgIndustry": "['design']",
+    "orgLinkedinUrl": "['http://www.linkedin.com/company/41842']",
+    "orgName": "Bruce Mau Design",
+    "orgSize": 45,
+    "orgState": "Ontario",
+    "orgWebsite": "http://www.brucemaudesign.com",
+    "phone": "",
+    "position": "Account Director",
+    "seniority": "director",
+    "state": "Ontario",
+    "ppeIndex": 28,
+    "ppeBatchIndex": 0,
+    "generatedEmail": "Patricia, I noticed Bruce Mau Design's mission-driven approach to branding. What inspires the unique perspectives you bring to your clients' projects?",
+    "id": "f52162ff-0f50-4658-af3c-513aa2a8113b",
+    "savedAt": "2026-02-06T18:34:55.952Z",
+    "lastPersonalizedAt": "2026-02-14T21:32:43.627Z",
+    "productId": "nordic-airbnb-host",
+    "generatedEmails": {
+      "email1": {
+        "subject": "your design approach",
+        "body": "Patricia, I noticed Bruce Mau Design's mission-driven approach to branding. What inspires the unique perspectives you bring to your clients' projects?"
+      },
+      "email_yes": {
+        "subject": "exploring design in nordic rentals",
+        "body": "Patricia, I wanted to follow up on my previous email and noticed your interest in sustainable design on LinkedIn. As someone who values innovative design, you might appreciate how Nordic Airbnb Host helps property owners in the region create unique and functional spaces for their guests. I'd love to discuss how our approach to rental management could align with your passion for design. Perhaps we could explore this topic further in a conversation?"
+      },
+      "email_no1": {
+        "subject": "nordic airbnb opportunities",
+        "body": "Patricia, I noticed your interest in sustainable design on LinkedIn and thought about how short-term rental properties can be designed with eco-friendly features to attract like-minded travelers. My previous email touched on maximizing rental income, but I'd love to explore how our services can support property owners in the Nordic region who share similar values. Perhaps we could discuss how Nordic Airbnb Host can help. Looking forward to hearing from you, Nordic Airbnb Host"
+      },
+      "email_no2": {
+        "subject": "boosting design-inspired rentals in nordic cities",
+        "body": "Hi Patricia, as a design expert, you likely appreciate the importance of unique experiences. In the Nordic region, short-term rentals that reflect local design aesthetics are in high demand. A well-curated rental can increase booking rates by up to 20% due to its distinct character. Our team at Nordic Airbnb Host helps property owners achieve this by tailoring their rentals to appeal to design-conscious travelers. What role do you think design plays in creating memorable travel experiences, and could this be an opportunity for your clients?"
+      },
+      "email_no3": {
+        "subject": "just a quick check-in",
+        "body": "Hi Patricia, I wanted to touch base after my previous messages, no hard feelings if we didn't quite connect - I'll leave the door open in case you need anything in the future, best, Nordic Airbnb Host"
+      }
+    },
+    "generatedSubject": "your design approach",
+    "draftGeneratedAt": "2026-02-25T16:16:48.152Z"
+  },
+  {
+    "city": "Mumbai",
+    "country": "India",
+    "email": "reagan.almeida@us.pwc.com",
+    "firstName": "Reagan",
+    "fullName": "Reagan Almeida",
+    "functional": "",
+    "lastName": "Almeida",
+    "linkedinUrl": "https://www.linkedin.com/in/erik-groten-steenwelle-3369416/",
+    "orgCity": "New York",
+    "orgCountry": "United States",
+    "orgDescription": "PwC helps organizations and individuals create the value they're looking for. We're a network of firms in 157 countries with more than 223,000 people. Tell us what matters to you and find out more by visiting us at www.pwc.comGain customized access to our insights by downloading our thought leadership on PwC's 365 app  - visit  iTunes for access: https://itunes.apple.com/us/app/pwcs-365/id689591286?ls=1&mt=8. We help our clients do the extraordinary each and every day. See how at http://pwc.to/1C8tf53",
+    "orgFoundedYear": 1998,
+    "orgIndustry": "['accounting']",
+    "orgLinkedinUrl": "['http://www.linkedin.com/company/1044']",
+    "orgName": "PwC",
+    "orgSize": 118518,
+    "orgState": "New York",
+    "orgWebsite": "http://www.pwc.com",
+    "phone": "",
+    "position": "Associate Director",
+    "seniority": "director",
+    "state": "Maharashtra",
+    "ppeIndex": 30,
+    "ppeBatchIndex": 0,
+    "generatedEmail": "Reagan, I noticed your emphasis on teamwork and collaboration at PwC. Your appreciation for your team's efforts is truly admirable. How do you foster a culture of teamwork within your organization? Nordic Airbnb Host",
+    "id": "7bb31fcd-338f-4620-92b3-06a9709a1db5",
+    "savedAt": "2026-02-06T20:16:29.079Z",
+    "productId": "nordic-airbnb-host",
+    "lastPersonalizedAt": "2026-02-14T16:45:10.584Z",
+    "insights": [
+      "Reagan Almeida is proud of their team's achievements, as seen in their post about the JD Benelux team receiving awards.",
+      "Reagan Almeida is interested in logistics and supply chain management, as indicated by their post about a workshop on inventory optimization.",
+      "Reagan Almeida values teamwork and collaboration, as seen in their appreciation for their team's efforts and their engagement with other professionals in their field."
+    ],
+    "professional_focus": [
+      "Logistics and supply chain management",
+      "Inventory optimization",
+      "Team management and leadership"
+    ],
+    "updatedAt": "2026-02-22T15:36:36.509Z",
+    "generatedEmails": {
+      "email1": {
+        "subject": "teamwork at pwc",
+        "body": "Reagan, I noticed your emphasis on teamwork and collaboration at PwC. Your appreciation for your team's efforts is truly admirable. How do you foster a culture of teamwork within your organization? Nordic Airbnb Host"
+      },
+      "email_yes": {
+        "subject": "teamwork in logistics",
+        "body": "Reagan, I wanted to follow up on my previous email. I noticed your appreciation for teamwork and collaboration on LinkedIn, which resonated with me. As someone who values logistics and supply chain management, I'm curious to know how you think these principles could be applied to other industries, such as short-term rental management. Would you be open to exploring this idea further? Best, Nordic Airbnb Host"
+      },
+      "email_no1": {
+        "subject": "teamwork in logistics",
+        "body": "Reagan, I wanted to follow up on my previous email and noticed your recent engagement with posts on teamwork and collaboration. It's great to see you value these aspects, especially in logistics and supply chain management. I'd love to explore how similar principles can be applied to short-term rental management, where effective team coordination is crucial. Perhaps we could discuss how to optimize operations in this context?"
+      },
+      "email_no2": {
+        "subject": "optimizing logistics for maximal output",
+        "body": "Reagan, as someone who values teamwork and collaboration, you likely understand the importance of streamlined logistics in achieving operational efficiency. In the context of supply chain management, optimizing inventory levels can significantly reduce costs and enhance overall productivity. Our work with short-term rental property owners in the Nordic region has shown us that effective logistics management can make all the difference in ensuring seamless day-to-day operations. By implementing data-driven strategies, companies can better anticipate demand fluctuations and adjust their inventory accordingly. What strategies have you found most effective in optimizing logistics and supply chain management within your own organization, Reagan? Best, Nordic Airbnb Host"
+      },
+      "email_no3": {
+        "subject": "wishing you all the best",
+        "body": "Hi Reagan, wanted to touch base one last time, no hard feelings if we didn't connect, and leave the door open for the future, best regards, Nordic Airbnb Host"
+      }
+    },
+    "generatedSubject": "teamwork at pwc",
+    "draftGeneratedAt": "2026-02-25T16:17:47.259Z"
+  },
+  {
+    "fullName": "simoncowling",
+    "email": "nmjibon@gmail.com",
+    "orgName": "DESTIL",
+    "position": "Voorraadbeheerder",
+    "phone": "",
+    "linkedinUrl": "https://www.linkedin.com/in/simoncowling/",
+    "productId": "topsalesagent",
+    "id": "f94e61c3-1fc4-4598-b34b-583da9434ecc",
+    "savedAt": "2026-02-25T15:47:56.674Z",
+    "generatedEmails": {
+      "email1": {
+        "subject": "your work at destil",
+        "body": "simoncowling, i noticed destil is a company with a strong presence, what's the most significant challenge you're currently tackling in your role as voorraadbeheerder?"
+      },
+      "email_yes": {
+        "subject": "optimizing sales processes",
+        "body": "simoncowling, I wanted to follow up on my previous email. I noticed you've been active in discussions around inventory management, and I think our solution could help streamline your sales processes. Our automated sales agent can help reduce labor costs and provide 24/7 support. Would you be open to exploring how this could benefit DESTIL? Best, Product Support"
+      },
+      "email_no1": {
+        "subject": "optimizing sales support at destil",
+        "body": "simoncowling, i wanted to follow up on my previous email and see if you've given any more thought to streamlining your sales processes. i noticed you've been active in discussions around supply chain management on linkedin, which makes me think that efficient sales support could be a key area of focus for destil. would you be open to exploring ways to optimize your sales support and reduce labor costs? i'd love to discuss this further with you. best, Product Support"
+      },
+      "email_no2": {
+        "subject": "boosting sales efficiency at DESTIL",
+        "body": "simoncowling, as someone who oversees inventory management at DESTIL, you likely understand the importance of streamlining processes to maximize productivity. One key aspect often overlooked is the sales process, which can be significantly optimized with the right tools. Did you know that automated sales agents can help reduce labor costs and increase efficiency by handling customer inquiries 24/7? This not only enhances customer experience but also allows your team to focus on more strategic tasks. By embracing such solutions, businesses can see a substantial improvement in their overall sales performance. What are your thoughts on leveraging technology to enhance sales operations at DESTIL, Product Support"
+      },
+      "email_no3": {
+        "subject": "checking in",
+        "body": "Hi simoncowling, wanted to touch base one last time, no hard feelings if we haven't connected yet, feel free to reach out if you need anything in the future, Product Support"
+      }
+    },
+    "generatedEmail": "simoncowling, i noticed destil is a company with a strong presence, what's the most significant challenge you're currently tackling in your role as voorraadbeheerder?",
+    "generatedSubject": "your work at destil",
+    "draftGeneratedAt": "2026-02-25T15:48:34.631Z",
+    "status": "active",
+    "campaignStep": 1,
+    "campaignStepAt": "2026-02-25T15:48:41.788Z",
+    "nextEmailAt": "2026-03-01T15:48:41.788Z",
+    "launchedAt": "2026-02-25T15:48:41.788Z",
+    "sequenceNodeId": "invite",
+    "updatedAt": "2026-02-26T21:38:16.004Z",
+    "linkedinVisitedAt": "2026-02-25T16:00:25.364Z",
+    "linkedinInviteSentAt": "2026-02-25T16:00:54.057Z",
+    "linkedinConnected": true,
+    "linkedinConnectionCheckedAt": "2026-02-26T21:38:16.001Z"
+  },
+  {
+    "fullName": "jakobhermansen",
+    "position": "",
+    "orgName": "",
+    "orgIndustry": "",
+    "email": "kakak@gmail.com",
+    "phone": "",
+    "linkedinUrl": "https://www.linkedin.com/in/jakobhermansen/",
+    "insights": [],
+    "professional_focus": [],
+    "productId": "nordic-airbnb-host",
+    "id": "9022173c-18ef-41cc-aa68-513b2bbf6e92",
+    "savedAt": "2026-02-25T16:13:31.195Z",
+    "generatedEmails": {
+      "email1": {
+        "subject": "nordic rentals",
+        "body": "jakobhermansen, saw your activity in the Nordic short-term rental space and wondered, what's the most challenging part of managing your properties?"
+      },
+      "email_yes": {
+        "subject": "optimizing nordic rentals",
+        "body": "jakobhermansen, I wanted to follow up on my previous message. I noticed your interest in Nordic travel trends on LinkedIn, which made me think about the growing demand for short-term rentals in the region. How do you currently manage your rental properties to capitalize on this trend? I'd love to discuss some strategies. Best, Nordic Airbnb Host"
+      },
+      "email_no1": {
+        "subject": "nordic short term rentals",
+        "body": "jakobhermansen, saw your post about nordic travel trends, got me thinking about the potential for short term rentals in the region. my first email might have slipped under your radar, but i wanted to follow up and explore if you're currently managing any properties on platforms like airbnb. would love to discuss your experience and hear your thoughts on the local market. looking forward to hearing from you, Nordic Airbnb Host"
+      },
+      "email_no2": {
+        "subject": "boosting nordic short-term rentals",
+        "body": "jakobhermansen, as a property owner in the nordic region, you're likely aware of the seasonal fluctuations in rental demand. did you know that implementing a dynamic pricing strategy can help increase your revenue by up to 15%? our team has worked with numerous hosts to optimize their pricing and maximize occupancy rates. by leveraging local market insights and adjusting prices accordingly, you can stay competitive and attract more guests. what are your current strategies for managing seasonal demand, and are you looking for ways to improve your pricing approach? best, Nordic Airbnb Host"
+      },
+      "email_no3": {
+        "subject": "checking in",
+        "body": "hi jakobhermansen, just wanted to touch base after our previous messages, no pressure at all, just leaving the door open if you'd like to explore how we can help with your short-term rentals, best, Nordic Airbnb Host"
+      }
+    },
+    "generatedEmail": "jakobhermansen, saw your activity in the Nordic short-term rental space and wondered, what's the most challenging part of managing your properties?",
+    "generatedSubject": "nordic rentals",
+    "draftGeneratedAt": "2026-02-25T16:18:43.039Z"
+  },
+  {
+    "fullName": "jakobhermansen",
+    "email": "kakak@gmail.com",
+    "orgName": "",
+    "position": "",
+    "phone": "",
+    "linkedinUrl": "https://www.linkedin.com/in/jakobhermansen/",
+    "productId": "topsalesagent-ucjcr",
+    "id": "49d6650c-7313-494b-ab51-a90cc447e944",
+    "savedAt": "2026-02-26T16:40:42.698Z",
+    "generatedEmails": {
+      "email1": {
+        "subject": "your background",
+        "body": "jakobhermansen, I noticed you're active in the community, what drives your interest in sales and customer support? Product Support"
+      },
+      "email_yes": {
+        "subject": "exploring sales efficiency",
+        "body": "jakobhermansen, I wanted to follow up on my previous email. I noticed your interest in innovative sales strategies on LinkedIn and thought you might appreciate exploring ways to optimize your sales process. Perhaps we could discuss how automation can help increase efficiency. I'd love to hear your thoughts on this. Best, Product Support"
+      },
+      "email_no1": {
+        "subject": "automating sales processes",
+        "body": "jakobhermansen, I wanted to follow up on my previous email. I noticed your interest in innovative sales solutions on LinkedIn. What are your thoughts on using automation to streamline sales processes? I'd love to discuss this further and explore how it could benefit your business. Best, Product Support"
+      },
+      "email_no2": {
+        "subject": "boosting sales efficiency",
+        "body": "jakobhermansen, as someone who likely interacts with customers regularly, you might be interested to know that many businesses struggle with providing 24/7 support due to limited resources. This can lead to missed opportunities and decreased customer satisfaction. Interestingly, a recent study found that companies that implement automated sales solutions see an average increase of 30% in sales productivity. Our team has seen similar results with our own clients. I wonder, have you ever considered how automated support could impact your own workflow? Best, Product Support"
+      },
+      "email_no3": {
+        "subject": "checking in one last time",
+        "body": "hi jakobhermansen, wanted to touch base after our previous messages, no pressure at all, just leaving the door open if you'd like to explore TopSalesAgent in the future, best regards, Product Support"
+      }
+    },
+    "generatedEmail": "jakobhermansen, I noticed you're active in the community, what drives your interest in sales and customer support? Product Support",
+    "generatedSubject": "your background",
+    "draftGeneratedAt": "2026-02-26T16:41:15.660Z",
+    "status": "active",
+    "campaignStep": 1,
+    "campaignStepAt": "2026-02-26T16:41:18.917Z",
+    "nextEmailAt": "2026-03-02T16:41:18.917Z",
+    "launchedAt": "2026-02-26T16:41:18.917Z",
+    "linkedinVisitedAt": "2026-02-26T21:37:15.878Z",
+    "sequenceNodeId": "invite",
+    "updatedAt": "2026-02-26T21:37:16.411Z",
+    "linkedinInviteSentAt": "2026-02-26T21:37:16.411Z"
+  },
+  {
+    "fullName": "Sari Lin Pallesen",
+    "position": "",
+    "orgName": "",
+    "orgIndustry": "",
+    "email": "mkmkm@hbnh.com",
+    "phone": "",
+    "linkedinUrl": "https://www.linkedin.com/in/sari-lin-pallesen/",
+    "insights": [
+      "Target Profile recently stepped into the role of VP of Product Experience at Understory.",
+      "Target Profile is proud of Understory's €12 million series A funding and the company's growth.",
+      "Target Profile values creating meaningful experiences and enabling experience creators to turn moments into lasting memories.",
+      "Target Profile is excited about the Spring Launch 2024 and the unveiling of new tools.",
+      "Target Profile is looking for a talented UI designer to join their team."
+    ],
+    "professional_focus": [
+      "Product Experience",
+      "User Experience (UX)",
+      "Experience Creation",
+      "Product Development",
+      "Team Growth and Hiring"
+    ],
+    "productId": null,
+    "id": "7eb540b4-efee-4b20-a645-16a5e0caecaf",
+    "savedAt": "2026-02-26T16:51:46.486Z"
+  },
+  {
+    "fullName": "Patricia Marcucci",
+    "email": "marcucci@brucemaudesign.com",
+    "orgName": "Bruce Mau Design",
+    "position": "Account Director",
+    "phone": "",
+    "linkedinUrl": "http://www.linkedin.com/in/patricia-marcucci-87a05a1a",
+    "productId": "topsalesagent-6wnet",
+    "id": "ae3319a6-02a3-4c78-a369-e192e8d004f9",
+    "savedAt": "2026-02-26T17:10:47.870Z",
+    "generatedEmails": {
+      "email1": {
+        "subject": "your work at bruce mau design",
+        "body": "I noticed Bruce Mau Design has been involved in some innovative projects lately. What drives your team's approach to creative problem-solving, Patricia? Product Support"
+      },
+      "email_yes": {
+        "subject": "enhancing sales efficiency at bruce mau design",
+        "body": "Hi Patricia, I wanted to follow up on my previous email. I noticed you've been sharing insights on innovative design solutions on LinkedIn, which made me think about how TopSalesAgent could help streamline Bruce Mau Design's sales processes. Our AI-powered sales agent can provide 24/7 automated support, increasing efficiency and reducing labor costs. Would you be open to exploring how this could benefit your team? Best, Product Support"
+      },
+      "email_no1": {
+        "subject": "boosting sales efficiency",
+        "body": "Hi Patricia, I wanted to follow up on my previous email. I noticed you recently posted about the importance of innovative design in business growth, which made me think of how TopSalesAgent can help streamline sales processes, allowing your team to focus on high-level creative work. Would you be open to a conversation about exploring ways to optimize your sales workflow? I'd love to hear your thoughts. Best, Product Support"
+      },
+      "email_no2": {
+        "subject": "boosting sales efficiency",
+        "body": "Hi Patricia, as an Account Director at Bruce Mau Design, you understand the importance of streamlined sales processes. I came across an interesting article about how companies are leveraging AI to automate sales support and increase customer engagement. It highlighted the potential for significant cost savings and improved response times. Our own solution, TopSalesAgent, has helped businesses achieve similar results by providing 24/7 automated sales support. What are your thoughts on adopting AI-powered sales tools to enhance your team's performance? Best, Product Support"
+      },
+      "email_no3": {
+        "subject": "checking in",
+        "body": "Hi Patricia, wanted to acknowledge I've reached out a couple times and didn't hear back, completely understand and no hard feelings, leaving the door open if you'd like to explore TopSalesAgent in the future. Best, Product Support"
+      }
+    },
+    "generatedEmail": "I noticed Bruce Mau Design has been involved in some innovative projects lately. What drives your team's approach to creative problem-solving, Patricia? Product Support",
+    "generatedSubject": "your work at bruce mau design",
+    "draftGeneratedAt": "2026-02-26T17:11:47.118Z",
+    "status": "active",
+    "campaignStep": 1,
+    "campaignStepAt": "2026-02-26T17:12:05.850Z",
+    "nextEmailAt": "2026-03-02T17:12:05.850Z",
+    "launchedAt": "2026-02-26T17:12:05.850Z",
+    "sequenceNodeId": "invite",
+    "updatedAt": "2026-02-26T21:37:16.567Z",
+    "linkedinVisitedAt": "2026-02-26T21:37:16.054Z",
+    "linkedinInviteSentAt": "2026-02-26T21:37:16.567Z"
+  },
+  {
+    "fullName": "Curl Test",
+    "email": "curl@test.com",
+    "productId": "test-a",
+    "id": "69eca54b-f9c4-4f02-a796-3b86dbe4def2",
+    "savedAt": "2026-02-26T17:56:52.068Z"
+  },
+  {
+    "fullName": "Curl Test",
+    "email": "curl@test.com",
+    "productId": "test-b",
+    "id": "b7c8cf07-3746-4d00-b3ca-6624a99880f4",
+    "savedAt": "2026-02-26T17:56:52.140Z"
+  },
+  {
+    "fullName": "simoncowling",
+    "email": "nmjibon@gmail.com",
+    "orgName": "DESTIL",
+    "position": "Voorraadbeheerder",
+    "phone": "",
+    "linkedinUrl": "https://www.linkedin.com/in/simoncowling/",
+    "productId": "topsalesagent-12nnc",
+    "id": "d5e73f40-b892-4b5f-9326-d7acb8dbd508",
+    "savedAt": "2026-02-26T18:01:47.778Z",
+    "generatedEmails": {
+      "email1": {
+        "subject": "your work at destil",
+        "body": "simoncowling, i saw that destil is involved in various initiatives, what drives their innovation strategy, Product Support"
+      },
+      "email_yes": {
+        "subject": "optimizing sales processes at destil",
+        "body": "simoncowling, hope you're doing well. I wanted to follow up on my previous email and noticed you've been focused on streamlining operations at DESTIL. I saw your post about improving inventory management and thought our automated sales support could help reduce manual labor. Would love to explore how TopSalesAgent can help destil's sales team. Best, Product Support"
+      },
+      "email_no1": {
+        "subject": "optimizing sales workflows",
+        "body": "simoncowling, I wanted to follow up on my previous email. I noticed you've been focused on improving operational efficiency at DESTIL. What are some of the biggest challenges you're facing in terms of streamlining your sales processes? I'd love to discuss potential solutions. Best, Product Support"
+      },
+      "email_no2": {
+        "subject": "optimizing sales support for destil",
+        "body": "simoncowling, as someone who oversees inventory management at DESTIL, you likely understand the importance of efficient processes. One key area where businesses often see significant improvements is in their sales support. Implementing automated solutions can help reduce the workload of human representatives, allowing them to focus on higher-value tasks. For instance, an AI-powered sales agent can handle customer inquiries 24/7, ensuring that no potential leads are missed and that customers receive timely support. This not only enhances customer satisfaction but also contributes to a more streamlined sales process. How do you currently handle sales inquiries and support at DESTIL, and are there any challenges you face in this area? Best, Product Support"
+      },
+      "email_no3": {
+        "subject": "just checking in",
+        "body": "hi simoncowling, wanted to touch base one last time, no hard feelings if we don't connect now, maybe our paths will cross again, Product Support"
+      }
+    },
+    "generatedEmail": "simoncowling, i saw that destil is involved in various initiatives, what drives their innovation strategy, Product Support",
+    "generatedSubject": "your work at destil",
+    "draftGeneratedAt": "2026-02-26T18:02:18.463Z",
+    "status": "active",
+    "campaignStep": 1,
+    "campaignStepAt": "2026-02-26T18:02:22.514Z",
+    "nextEmailAt": "2026-03-02T18:02:22.514Z",
+    "launchedAt": "2026-02-26T18:02:22.514Z",
+    "sequenceNodeId": "visit",
+    "updatedAt": "2026-02-26T21:37:16.216Z",
+    "linkedinVisitedAt": "2026-02-26T21:37:16.211Z"
+  },
+  {
+    "fullName": "simoncowling",
+    "email": "nmjibon@gmail.com",
+    "orgName": "DESTIL",
+    "position": "Voorraadbeheerder",
+    "phone": "",
+    "linkedinUrl": "https://www.linkedin.com/in/simoncowling/",
+    "productId": "topsalesagent-5z924",
+    "id": "d821dff6-b832-40df-9f1b-7bca921295b9",
+    "savedAt": "2026-02-27T17:32:30.990Z",
+    "generatedEmails": {
+      "email1": {
+        "subject": "your work at destil",
+        "body": "simoncowling, i noticed destil is involved in various industries, what's the most interesting project you've worked on lately at destil?"
+      },
+      "email_yes": {
+        "subject": "optimizing sales processes",
+        "body": "simoncowling, I wanted to follow up on my previous email. I noticed you've been active in discussions around operational efficiency on LinkedIn. What are your thoughts on leveraging automation to streamline sales support? I'd love to hear your perspective on this. Best, Product Support"
+      },
+      "email_no1": {
+        "subject": "optimizing sales support at destil",
+        "body": "simoncowling, i wanted to follow up on my previous email and see if you've given any more thought to streamlining your sales processes. i noticed on linkedin that destil is focused on innovative solutions, and i think our automated sales agent could help take that to the next level. would you be open to exploring ways to enhance your customer support and reduce labor costs? perhaps we could discuss some ideas that might be a good fit for your team. best, Product Support"
+      },
+      "email_no2": {
+        "subject": "boosting sales efficiency",
+        "body": "simoncowling, as someone who oversees inventory management, you likely understand the importance of streamlining processes to maximize productivity. One often overlooked area is sales support, which can be a significant drain on resources if not optimized. Implementing automated solutions can help alleviate this burden, allowing teams to focus on higher-value tasks. For instance, having a 24/7 automated sales agent can ensure that customer inquiries are addressed promptly, regardless of the time of day. This not only enhances the customer experience but also reduces the workload for human representatives. What are your thoughts on leveraging automation to enhance your sales operations, simoncowling? Best, Product Support"
+      },
+      "email_no3": {
+        "subject": "checking in one last time",
+        "body": "hi simoncowling, just wanted to acknowledge we've reached out a couple times and wished you all the best, no hard feelings if we haven't connected yet, feel free to explore our solutions anytime, regards, Product Support"
+      }
+    },
+    "generatedEmail": "simoncowling, i noticed destil is involved in various industries, what's the most interesting project you've worked on lately at destil?",
+    "generatedSubject": "your work at destil",
+    "draftGeneratedAt": "2026-02-27T17:33:18.477Z",
+    "status": "active",
+    "campaignStep": 1,
+    "campaignStepAt": "2026-02-27T17:33:22.144Z",
+    "nextEmailAt": "2026-03-03T17:33:22.144Z",
+    "launchedAt": "2026-02-27T17:33:22.144Z"
+  },
+  {
+    "fullName": "simoncowling",
+    "email": "nmjibon@gmail.com",
+    "orgName": "DESTIL",
+    "position": "Voorraadbeheerder",
+    "phone": "",
+    "linkedinUrl": "https://www.linkedin.com/in/simoncowling/",
+    "productId": "topsalesagent-l5icx",
+    "id": "10bfcaec-2acf-457f-b180-a755b7e9d844",
+    "savedAt": "2026-02-27T17:41:27.397Z",
+    "generatedEmails": {
+      "email1": {
+        "subject": "your work at destil",
+        "body": "simoncowling, i saw that destil is involved in some interesting projects, what's the most significant challenge you're currently facing in your role as voorraadbeheerder? Product Support"
+      },
+      "email_yes": {
+        "subject": "optimizing sales processes",
+        "body": "simoncowling, I wanted to follow up on my previous email. I noticed you've been active in discussions around inventory management, which made me think about how TopSalesAgent could help streamline sales processes for DESTIL. Perhaps we could explore ways to optimize your sales workflow together? I'd love to hear your thoughts on this. Best, Product Support"
+      },
+      "email_no1": {
+        "subject": "optimizing sales processes",
+        "body": "simoncowling, I wanted to follow up on my previous email. I noticed you've been focused on streamlining operations at DESTIL, which is great. I think our solution could help take that a step further by automating sales support. Would you be open to discussing how that could benefit your team? Best, Product Support"
+      },
+      "email_no2": {
+        "subject": "optimizing sales support for destil",
+        "body": "Hi simoncowling, as someone who manages inventory, you likely understand the importance of streamlined processes. One key aspect to consider is how sales support can impact your overall operations. Did you know that companies with 24/7 sales support see significant increases in customer satisfaction and loyalty? This is because timely responses to inquiries can make all the difference in building trust with potential customers. At TopSalesAgent, we've seen firsthand how automation can enhance this experience. What are your current challenges in providing sales support to your customers, simoncowling? Best, Product Support"
+      },
+      "email_no3": {
+        "subject": "just checking in",
+        "body": "hi simoncowling, wanted to touch base one last time, no pressure at all, just leaving the door open in case you're interested in exploring TopSalesAgent further, best regards, Product Support"
+      }
+    },
+    "generatedEmail": "simoncowling, i saw that destil is involved in some interesting projects, what's the most significant challenge you're currently facing in your role as voorraadbeheerder? Product Support",
+    "generatedSubject": "your work at destil",
+    "draftGeneratedAt": "2026-02-27T17:42:03.621Z",
+    "status": "active",
+    "campaignStep": 1,
+    "campaignStepAt": "2026-02-27T17:42:08.567Z",
+    "nextEmailAt": "2026-03-03T17:42:08.567Z",
+    "launchedAt": "2026-02-27T17:42:08.567Z"
+  },
+  {
+    "fullName": "Belinda Barnes",
+    "email": "belinda.barnes@charteredaccountantsanz.com",
+    "orgName": "Chartered Accountants Australia and New Zealand",
+    "position": "LMS & Logistics Team Leader, Chartered Accountants Program",
+    "phone": "—",
+    "linkedinUrl": "http://www.linkedin.com/in/belinda-barnes-2211023b",
+    "productId": "topsalesagent",
+    "id": "b2fbe6ee-355f-49ff-9368-d316365c9c09",
+    "savedAt": "2026-03-04T15:57:50.959Z"
+  },
+  {
+    "fullName": "Belinda Barnes",
+    "email": "belinda.barnes@charteredaccountantsanz.com",
+    "orgName": "Chartered Accountants Australia and New Zealand",
+    "position": "LMS & Logistics Team Leader, Chartered Accountants Program",
+    "phone": "—",
+    "linkedinUrl": "http://www.linkedin.com/in/belinda-barnes-2211023b",
+    "productId": "topsalesagent-bng4q",
+    "id": "469086f8-1416-46e7-a531-0b0cd7c7b151",
+    "savedAt": "2026-03-04T15:58:29.029Z",
+    "generatedEmails": {
+      "email1": {
+        "subject": "your role at chartered accountants",
+        "body": "Belinda, I noticed Chartered Accountants Australia and New Zealand has a strong focus on professional development. What initiatives are you currently working on to support this goal, and how do you see them evolving?"
+      },
+      "email_yes": {
+        "subject": "optimizing sales support",
+        "body": "Hi Belinda, I wanted to follow up on my previous email. I noticed you've been involved in discussions around enhancing customer experience on LinkedIn. I'm curious, have you explored ways to automate sales support to free up more time for strategic work? Perhaps we could discuss some ideas. Best, Product Support"
+      },
+      "email_no1": {
+        "subject": "optimizing sales support",
+        "body": "Hi Belinda, I wanted to follow up on my previous email. I noticed you've been sharing insights on process improvement in your LinkedIn posts. How do you currently handle customer inquiries outside of business hours? I'd love to discuss ways to optimize your sales support. Best, Product Support"
+      },
+      "email_no2": {
+        "subject": "boosting efficiency in logistics teams",
+        "body": "Hi Belinda, as a team leader, you understand the importance of streamlining processes to free up more time for strategic decision-making. I came across an interesting article about how automation can help reduce manual errors in logistics management, which resonated with me given your role in the Chartered Accountants Program. Implementing automated solutions can significantly improve the overall efficiency of your team. Our work at TopSalesAgent has shown that automation can have a similar impact on sales processes, allowing teams to focus on high-value tasks. What are some of the biggest challenges you're currently facing in terms of process optimization? Best, Product Support"
+      },
+      "email_no3": {
+        "subject": "checking in on sales support",
+        "body": "Hi Belinda, I've reached out a couple times about TopSalesAgent, no hard feelings if it's not a fit - just wanted to leave the door open in case you're interested in the future. Best, Product Support"
+      }
+    },
+    "generatedEmail": "Belinda, I noticed Chartered Accountants Australia and New Zealand has a strong focus on professional development. What initiatives are you currently working on to support this goal, and how do you see them evolving?",
+    "generatedSubject": "your role at chartered accountants",
+    "draftGeneratedAt": "2026-03-04T15:59:03.507Z"
+  }
+]

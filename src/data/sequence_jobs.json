@@ -1,0 +1,168 @@
+[
+  {
+    "id": "ade9b5c8-d003-40db-b38e-233838a2d6e9",
+    "leadId": "ac9ce4b7-9169-4236-83d3-e88cd4034d3f",
+    "productId": "topsalesagent",
+    "nodeId": "chat_yes1",
+    "scheduledAt": "2026-02-26T15:06:58.588Z",
+    "status": "failed",
+    "attempts": 3,
+    "createdAt": "2026-02-25T15:59:53.943Z",
+    "updatedAt": "2026-02-25T15:59:54.224Z",
+    "error": "Contact not found: ac9ce4b7-9169-4236-83d3-e88cd4034d3f"
+  },
+  {
+    "id": "f498297a-9b03-48f0-b78d-be5b4865b3dd",
+    "leadId": "f94e61c3-1fc4-4598-b34b-583da9434ecc",
+    "productId": "topsalesagent",
+    "nodeId": "visit",
+    "scheduledAt": "2026-02-25T15:48:42.407Z",
+    "status": "done",
+    "attempts": 0,
+    "createdAt": "2026-02-25T15:59:53.943Z",
+    "updatedAt": "2026-02-25T15:59:54.230Z"
+  },
+  {
+    "id": "e333a1f3-73f6-4bcf-8f06-32db76938a20",
+    "leadId": "f94e61c3-1fc4-4598-b34b-583da9434ecc",
+    "productId": "topsalesagent",
+    "nodeId": "invite",
+    "scheduledAt": "2026-02-25T16:00:25.366Z",
+    "status": "done",
+    "attempts": 0,
+    "createdAt": "2026-02-25T16:00:25.366Z",
+    "updatedAt": "2026-02-25T16:00:25.379Z"
+  },
+  {
+    "id": "239c2a6d-355b-47c6-8aad-164760f30a18",
+    "leadId": "f94e61c3-1fc4-4598-b34b-583da9434ecc",
+    "productId": "topsalesagent",
+    "nodeId": "condition",
+    "scheduledAt": "2026-02-26T21:36:12.967Z",
+    "status": "done",
+    "attempts": 0,
+    "createdAt": "2026-02-26T21:36:12.967Z",
+    "updatedAt": "2026-02-26T21:38:16.009Z"
+  },
+  {
+    "id": "0241819d-77ef-46fa-83c6-1b475c8a4967",
+    "leadId": "f52162ff-0f50-4658-af3c-513aa2a8113b",
+    "productId": "nordic-airbnb-host",
+    "nodeId": "visit",
+    "scheduledAt": "2026-02-26T21:36:12.967Z",
+    "status": "done",
+    "attempts": 0,
+    "createdAt": "2026-02-26T21:36:12.967Z",
+    "updatedAt": "2026-02-26T21:37:15.448Z"
+  },
+  {
+    "id": "fc8600dc-e74c-4ff7-a7e2-ce7f97d1f1a4",
+    "leadId": "7bb31fcd-338f-4620-92b3-06a9709a1db5",
+    "productId": "nordic-airbnb-host",
+    "nodeId": "visit",
+    "scheduledAt": "2026-02-26T21:36:12.968Z",
+    "status": "done",
+    "attempts": 0,
+    "createdAt": "2026-02-26T21:36:12.968Z",
+    "updatedAt": "2026-02-26T21:37:15.462Z"
+  },
+  {
+    "id": "3e544ef2-1285-4296-a451-4be4b6314cdb",
+    "leadId": "9022173c-18ef-41cc-aa68-513b2bbf6e92",
+    "productId": "nordic-airbnb-host",
+    "nodeId": "visit",
+    "scheduledAt": "2026-02-26T21:36:12.968Z",
+    "status": "done",
+    "attempts": 0,
+    "createdAt": "2026-02-26T21:36:12.968Z",
+    "updatedAt": "2026-02-26T21:37:15.470Z"
+  },
+  {
+    "id": "e8111694-5769-4f6a-a616-d74bd52cf586",
+    "leadId": "49d6650c-7313-494b-ab51-a90cc447e944",
+    "productId": "topsalesagent-ucjcr",
+    "nodeId": "visit",
+    "scheduledAt": "2026-02-26T21:36:12.968Z",
+    "status": "done",
+    "attempts": 0,
+    "createdAt": "2026-02-26T21:36:12.968Z",
+    "updatedAt": "2026-02-26T21:37:15.881Z"
+  },
+  {
+    "id": "42825662-d8d4-4568-9e3b-4677b99a0f73",
+    "leadId": "f52162ff-0f50-4658-af3c-513aa2a8113b",
+    "productId": "nordic-airbnb-host",
+    "nodeId": "invite",
+    "scheduledAt": "2026-02-26T21:37:15.449Z",
+    "status": "done",
+    "attempts": 0,
+    "createdAt": "2026-02-26T21:37:15.449Z",
+    "updatedAt": "2026-02-26T21:37:16.239Z"
+  },
+  {
+    "id": "8500f04d-1915-4bca-9dd1-fcac05459206",
+    "leadId": "7bb31fcd-338f-4620-92b3-06a9709a1db5",
+    "productId": "nordic-airbnb-host",
+    "nodeId": "invite",
+    "scheduledAt": "2026-02-26T21:37:15.462Z",
+    "status": "done",
+    "attempts": 0,
+    "createdAt": "2026-02-26T21:37:15.462Z",
+    "updatedAt": "2026-02-26T21:37:16.247Z"
+  },
+  {
+    "id": "ea7f738c-987d-4356-9463-990aec6b900f",
+    "leadId": "9022173c-18ef-41cc-aa68-513b2bbf6e92",
+    "productId": "nordic-airbnb-host",
+    "nodeId": "invite",
+    "scheduledAt": "2026-02-26T21:37:15.470Z",
+    "status": "done",
+    "attempts": 0,
+    "createdAt": "2026-02-26T21:37:15.470Z",
+    "updatedAt": "2026-02-26T21:37:16.253Z"
+  },
+  {
+    "id": "721a683b-47ec-42d7-8578-5c447ec7700d",
+    "leadId": "49d6650c-7313-494b-ab51-a90cc447e944",
+    "productId": "topsalesagent-ucjcr",
+    "nodeId": "invite",
+    "scheduledAt": "2026-02-26T21:37:15.881Z",
+    "status": "done",
+    "attempts": 0,
+    "createdAt": "2026-02-26T21:37:15.881Z",
+    "updatedAt": "2026-02-26T21:37:16.412Z"
+  },
+  {
+    "id": "a326b528-d8b3-433a-9012-4f52b383a8b6",
+    "leadId": "f94e61c3-1fc4-4598-b34b-583da9434ecc",
+    "productId": "topsalesagent",
+    "nodeId": "chat_yes1",
+    "scheduledAt": "2026-02-27T17:33:22.964Z",
+    "status": "done",
+    "attempts": 0,
+    "createdAt": "2026-02-27T17:33:22.964Z",
+    "updatedAt": "2026-02-27T17:33:23.723Z"
+  },
+  {
+    "id": "2fcf4708-daf3-4935-8866-5d53c6c9f7fc",
+    "leadId": "10bfcaec-2acf-457f-b180-a755b7e9d844",
+    "productId": "topsalesagent-l5icx",
+    "nodeId": "visit",
+    "scheduledAt": "2026-02-27T17:42:09.416Z",
+    "status": "done",
+    "attempts": 0,
+    "createdAt": "2026-02-27T17:42:09.417Z",
+    "updatedAt": "2026-02-27T17:42:09.902Z"
+  },
+  {
+    "id": "8249dc75-05fb-4cb3-a525-ab5f19c210f1",
+    "leadId": "10bfcaec-2acf-457f-b180-a755b7e9d844",
+    "productId": "topsalesagent-l5icx",
+    "nodeId": "invite",
+    "scheduledAt": "2026-02-27T17:42:09.907Z",
+    "status": "done",
+    "attempts": 0,
+    "createdAt": "2026-02-27T17:42:09.907Z",
+    "updatedAt": "2026-02-27T17:42:10.074Z"
+  }
+]

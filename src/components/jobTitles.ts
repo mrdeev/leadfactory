@@ -1,0 +1,22 @@
+export const jobTitles = [
+    "Director", "Manager", "Founder", "General Manager", "Consultant", "Chief Executive Officer",
+    "Co-Founder", "Account Manager", "Chief Financial Officer", "Human Resources Manager",
+    "Director Of Marketing", "Executive Director", "Executive Assistant", "Administrative Assistant",
+    "Director Of Human Resources", "Associate", "HR Manager", "Account Executive",
+    "Business Development Manager", "Director Of Operations", "Controller", "Chief Technology Officer",
+    "Chief Information Officer", "Founder & CEO", "Attorney", "IT Manager", "Assistant Manager",
+    "Engineer", "Business Analyst", "Accountant", "Chief Marketing Officer", "Creative Director",
+    "Director Of Sales", "Graphic Designer", "Analyst", "Human Resources Director", "Founder And CEO",
+    "Director, Information Technology", "Digital Marketing Manager", "Business Owner",
+    "Assistant Professor", "Branch Manager", "HR Director", "Administrator",
+    "Customer Service Representative", "Business Partner", "Co Founder", "Designer", "Intern",
+    "Lecturer", "Architect", "Director Of Information Technology", "Information Technology Manager",
+    "Co-Founder & CEO", "Co-Owner", "Human Resources", "Business Development", "IT Director",
+    "Associate Professor", "Finance Manager", "Director Of Business Development", "Developer",
+    "Business Manager", "Director Of Engineering", "Information Technology", "Customer Service",
+    "Key Account Manager", "Executive Vice President", "Financial Analyst", "HR Generalist",
+    "Financial Advisor", "Instructor", "Engineering Manager", "Art Director",
+    "Director Of Sales And Marketing", "Area Manager", "CEO & Founder", "Director Of Finance",
+    "Data Analyst", "Associate Director", "Accounting Manager", "Docente", "Customer Service Manager",
+    "IT Specialist", "Account Director", "Data Scientist", "District Manager", "Human Resources Partner"
+].sort();
